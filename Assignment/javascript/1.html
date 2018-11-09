@@ -1,0 +1,33 @@
+<html>
+	<head>
+		<script>
+			function bmi(m,h)
+			{
+				return m/h*h;
+				 
+			}
+		
+		</script>
+	
+	</head>
+
+	<body>
+		<script>
+			
+			var a =parseInt(prompt("Enter John's mass",""));
+			var b =parseInt(prompt("Enter John's height",""));
+			var c =parseInt(prompt("Enter Mark's mass",""));
+			var d =parseInt(prompt("Enter Mark's height",""));
+			
+			if(bmi(a,b)<bmi(c,d))
+			{
+				alert("Mark's bmi is greater");
+			}
+			else
+			{
+				alert("John's bmi is greater");
+			}
+			
+		</script>
+	</body>
+</html>

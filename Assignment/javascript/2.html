@@ -1,0 +1,29 @@
+<html>
+	<head>
+    	<script type="text/javascript">
+        	function validate()
+				{	
+
+					var t=document.MyForm.number.value;
+            			if(t==""||isNaN(t))
+            			{
+               				alert("Please provide a number");
+							return;
+             	   		}    
+               			 else
+              		 	 {
+                				t=t-32;
+              		  	}
+                			document.write("Temperature in celscius is " +  t  + " " );
+						}
+       	 </script>
+   	 </head>
+    
+   	 <body>
+    		<form name="MyForm" onsubmit="return(validate())">
+    			<input type="text" name="number" >
+			
+    			<input type="submit" name="Show Results" >
+    		</form>
+   	 </body>
+</html>
