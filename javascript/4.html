@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<script>
+			function average()
+			{
+				
+				var count =0;
+				var sum=0,s,avg;
+				do
+				{
+					s=prompt("Enter the scores");
+					
+					if(isNAN(s))
+					{
+						document.write("Please enter a number");
+					}
+					else
+					{
+						sum=sum+s;
+						count++;
+					}
+					
+					
+				}while(count<3); 
+				avg=sum/3;
+			}
+			
+		</script>
+	</head>
+	
+	<body>
+	<button onclick=try() value="start">start</button>
+		<script>
+		function try(){
+			do
+			{
+				var flag=0;
+				document.write("Do you want to calculate average");
+				var num;
+				document.write( "1. Yes"
+								"2. Highest"
+								"3. No");
+				switch (ch)
+				{
+				case 1: average();
+						break;
+				case 2: highest();
+						flag=1;
+						break;
+				default:break;
+				}
+			
+			}while(flag=0);
+			
+		}	
+			
+		</script>
+	</body>
+</html>

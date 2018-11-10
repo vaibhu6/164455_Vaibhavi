@@ -1,0 +1,36 @@
+
+
+h3
+{
+	float : left;
+	top : 0;
+}
+#center
+{
+	top : 15 px;
+}
+#l1
+{
+	border : 1 px;
+	float : left;
+	background-color : #ffffff;
+	width :50%;
+	text-align: left;
+	text-align : justify;
+	height: 200px;
+}
+#r1
+{
+	border :1 px;
+	float : right;
+	background-color : #ff3333 ;
+	width :50%;
+	text-align: left;
+	height: 200px;
+	
+}
+#footer
+{
+	margin-bottom:0 px;
+	text-align: left;
+}

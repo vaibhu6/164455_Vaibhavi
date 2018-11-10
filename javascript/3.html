@@ -1,0 +1,40 @@
+<html>
+	<head>
+	</head>
+	
+	<body>
+		<script>
+			var count=0;	
+			do
+			{
+				var num=prompt("Enter a number","");
+				if(isNaN(num))
+				{
+					alert("Not a number");
+				}
+				else
+				{
+					if(num>30)
+					{
+						alert("Number is greater than 30");
+					}
+					else
+					{
+						for(var i=0; i<num; i++)
+						{
+							document.write("*");
+						
+						}
+						count++;
+						document.write("<br>");	
+					}
+					
+				}
+				
+				
+			}while(count<3);
+		
+		
+		</script>
+	</body>
+</html>
