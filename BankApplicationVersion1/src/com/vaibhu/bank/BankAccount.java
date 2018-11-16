@@ -5,22 +5,22 @@ public class BankAccount
 	//static variable--> not dependent on object creation.
 	private static int autoAccountNo; //so that the account no is updated each time.
 	
-	//instance variable / class variable cannot be accessed without the creation of an object.
+	//instance variable is also called class variable cannot be accessed without the creation of an object.
 	private int accountNo;
 	private String accountHolderName;
 	private double accountBalance;
 	
-	//init block--> reduces the no of times to initialise the same line.
+	//init block--> reduces the no of times to initialize the same line.
 	{
-		// init block is invoked each time a onstructor is called. if there are multiple constructor , init will invoke multiple no of times.  
+		// init block is invoked each time a constructor is called. if there are multiple constructor , init will invoke multiple no of times.  
 		accountNo=++autoAccountNo;
 		System.out.println("init block");
 	}
-	//constructor overloading--> more than 1 constuctor with same name, but different parameters offering variety. 
+	//constructor overloading--> more than 1 constructor with same name, but different parameters offering variety. 
 	public BankAccount()	
 	{
-		// default constructor --> intialises instance variable which is automatically called when a object is created.
-		// used in scenario when bulk acc creation is done
+		// default constructor --> initializes instance variable which is automatically called when a object is created.
+		// used in scenario like when bulk account creation is done
 		accountHolderName="Unknown";
 		accountBalance=0;
 		System.out.println("Default constructor");
@@ -60,7 +60,7 @@ public class BankAccount
 	
 	public void withdraw(double amount)
 	{
-		// service method
+		// service method--> to compute operations
 		this.accountBalance-=amount;
 	}
 	
@@ -81,10 +81,18 @@ public class BankAccount
 // Access specifiers
 
 // within a class
-// Private YES Public YES Default YES
+// Private YES Public YES Default YES Protected YES
+
 // Outside a class but within a same package
-// Private NO Public YES Default YES
-// Outside class as well as outside package
-// Private NO Public YES Default NO
+// Private NO Public YES Default YES Protected "YES"
+
+// Outside class as well as outside package 
+// Private NO Public YES Default NO Protected NO
+
+// Outside class within package but sub class
+// Private NO Public YES Default Yes Protected YES
+
+// Outside class outside package but sub class
+//Private NO Public YES Default NO Protected YES
 
 //Default or package level modifier--> when any access specifier is not specified.

@@ -2,14 +2,14 @@ package com.vaibhu.bank;
 
 import java.io.ObjectInputStream.GetField;
 
-public class BankAccountAssignment
+public abstract class BankAccountAssignment
 {
 	
 	private static int autoAccountNo;
 	
 	private int accountNo;
 	private String accountHolderName;
-	private double accountBalance;
+	protected double accountBalance;
 	
 	{
 		accountNo=++autoAccountNo;
@@ -83,11 +83,11 @@ public class BankAccountAssignment
 	
 	public static void main(String[] args)
 	{
-		BankAccountAssignment acc = new BankAccountAssignment();
-		BankAccountAssignment acc2 = new BankAccountAssignment("Vaibhavi",5000);
-		acc2.withdraw(1000);
-		double a=acc2.getAccountBalance();
-		System.out.println(a);
+		//BankAccountAssignment acc = new BankAccountAssignment();
+		//BankAccountAssignment acc2 = new BankAccountAssignment("Vaibhavi",5000);
+		//acc2.withdraw(4500);
+		//double a=acc2.getAccountBalance();
+		//System.out.println(a);
 	}
 	
 }
