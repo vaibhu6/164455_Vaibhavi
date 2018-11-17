@@ -37,7 +37,11 @@ public class TestBankAccountAssignment {
 	}
 	public static void main(String[] args)
 	{
-		//testSavingAccount();
+		BankAccountAssignment acc= new BankAccountAssignment();
+		acc.setAccountHolderName("Sachin");
+		acc.testSavingAccount();
+		acc.testCurrentAccount();
+		testSavingAccount();
 		testCurrentAccount();
 	}
 	
