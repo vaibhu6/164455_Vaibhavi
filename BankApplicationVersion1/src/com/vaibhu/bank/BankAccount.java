@@ -38,7 +38,7 @@ public class BankAccount
 	
 	public void setAccountHolderName(String accountHolderName) 
 	{
-		//setter method(conceptual method)--> modifies / reintialises  the member variable. 
+		//setter method(conceptual method)--> modifies / reinitializes  the member variable. 
 		this.accountHolderName = accountHolderName;
 	}
 	
