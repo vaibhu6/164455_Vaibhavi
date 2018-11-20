@@ -2,7 +2,7 @@ package com.vaibhu;
 
 import java.util.Scanner;
 
-public abstract class MyArrayList implements MyList {
+public class MyArrayList implements MyList {
 	
 	Scanner scanner= new Scanner(System.in);
 	int[] array = new int[10];
