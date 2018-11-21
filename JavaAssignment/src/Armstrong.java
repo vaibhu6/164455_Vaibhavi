@@ -7,7 +7,10 @@ public class Armstrong
 		Scanner sc= new Scanner(System.in);
 		
 		int number=sc.nextInt();
-		int b,mod, sum=0,count=0;
+		int b;
+		int mod;
+		int sum=0;
+		int count=0;
 		b=number;
 		int a=number;
 		while(a>0)
