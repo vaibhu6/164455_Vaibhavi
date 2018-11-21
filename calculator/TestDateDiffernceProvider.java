@@ -30,7 +30,7 @@ public class TestDateDiffernceProvider {
 			if (calculatedDiff == myTestRecords[index].getActualDiffernce()) {
 				System.out.println("Test Case passed");
 			} else {
-				System.err.println("Test Case failed"+" Actual =" + myTestRecords[index].getActualDiffernce()+ " calculated ="+ calculatedDiff);
+				System.out.println("Test Case failed"+" Actual =" + myTestRecords[index].getActualDiffernce()+ " calculated ="+ calculatedDiff);
 			}
 		}
 	}
