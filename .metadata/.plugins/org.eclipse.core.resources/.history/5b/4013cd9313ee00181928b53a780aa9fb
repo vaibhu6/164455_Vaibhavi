@@ -1,0 +1,59 @@
+package com.vaibhu;
+
+import java.util.Scanner;
+
+public class Calculator {
+	
+	public static void main(String[] args) {
+		
+		Scanner scanner =new Scanner(System.in);
+		int n=1;
+		while(n>0){
+			System.out.println("Enter the numbers ");
+			float num1 = scanner.nextInt();
+			float num2 = scanner.nextInt();
+	
+			System.out.println("Enter your choice:\n 1. Add\n 2. Substract\n 3. Multiply\n 4. Division");
+			int ch = scanner.nextInt();
+			float result=0;
+			switch(ch){
+				case 1: addition(num1,num2,result);
+						break;
+				case 2: subtract(num1,num2,result);
+						break;
+				case 3: multiplication(num1,num2,result);
+						break;
+				case 4: division(num1,num2,result);
+						break;
+				default:System.out.println("Wrong choice");
+						return ;
+			}
+		
+			System.out.println(result);
+			 int cont;
+			System.out.println("Do you want to continue?\n 1.Yes\n 2.No");
+			cont=scanner.nextInt();
+			if(cont==2)
+				n--;	
+		}
+	}
+
+		
+	public static float addition(float num1,float num2,float result){
+		result=num1 + num2;
+		return result;
+		}
+	public static float subtract(float num1,float num2,float result){
+		result=num1 - num2;
+		return result;
+		}
+	public static float multiplication(float num1,float num2,float result){
+		result=num1 * num2;
+		return result;
+		}
+	public static float division(float num1,float num2,float result){
+		result=num1 / num2;
+		return result;
+		}
+	
+}

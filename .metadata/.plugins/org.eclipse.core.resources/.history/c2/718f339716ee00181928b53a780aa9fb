@@ -1,0 +1,17 @@
+package com.vaibhu;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class MyJunitTest {
+
+	@Test
+	public void test() {
+		MyJunitTest test=new MyJunitTest();
+		
+		assertEquals(expected, actual);
+		//assertEquals(test.addition(23,23));
+	}
+
+}

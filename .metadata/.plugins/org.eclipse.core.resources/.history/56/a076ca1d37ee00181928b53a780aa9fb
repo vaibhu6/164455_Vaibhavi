@@ -1,0 +1,25 @@
+package com.vaibhu;
+
+import static org.junit.Assert.*;
+
+import org.junit.*;
+
+public class Annotations {
+
+	@Test
+	public void test() {
+		System.out.println("Test method implemented");
+	}
+	@Before
+	public void Before(){
+		System.out.println("Before method implemented");
+	}
+	@Before
+	public void Before1(){
+		System.out.println("Before1 method implemented");
+	}
+	@BeforeClass
+	public void Before(){
+		System.out.println("Before method implemented");
+	}
+}
