@@ -1,0 +1,9 @@
+package com.vaibhu.cf;
+import java.util.*;
+
+public class ArrayList {
+	int n=5;
+	
+	ArrayList<Integer> arr= new ArrayList<Integer>(n);
+	
+}

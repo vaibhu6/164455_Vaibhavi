@@ -1,0 +1,11 @@
+package com.vaibhu.cf;
+
+import java.util.Hashtable;
+
+public class Employee1 {
+	public static void main(String[] args) {
+		Hashtable<Integer, String> hash= new Hashtable<>();
+		 Employee e1 =new Employee(1,"Vaibhu");
+		 
+	}
+}

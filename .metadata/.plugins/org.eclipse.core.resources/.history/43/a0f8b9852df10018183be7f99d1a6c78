@@ -1,0 +1,9 @@
+package com.vaibhu.cf;
+
+public class Treeset<S> {
+	public static void main(String[] args) {
+		Treeset<Person> person1=new Treeset<Person>();
+		
+	}
+}
+

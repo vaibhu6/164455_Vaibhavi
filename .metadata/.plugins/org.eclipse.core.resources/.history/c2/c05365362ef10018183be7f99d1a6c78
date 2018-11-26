@@ -1,0 +1,13 @@
+package com.vaibhu.cf;
+
+import java.util.TreeSet;
+
+public class Treeset<S> {
+
+	public static void main(String[] args) {
+		TreeSet<Person> tree = new TreeSet<String>(); 
+		tree.add(new Person(50,5,"John"));
+		
+	}
+}
+

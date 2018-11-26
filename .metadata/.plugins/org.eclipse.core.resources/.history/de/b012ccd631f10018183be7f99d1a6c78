@@ -1,0 +1,23 @@
+package com.vaibhu.cf;
+import java.util.HashSet;
+
+public class Question2 {
+	
+		public static void main(String[] args) {
+			HashSet<String> tree= new TreeSet<String>();
+			tree.add("20");
+			tree.add("10");
+			tree.add("40");
+			tree.add("30");
+
+			for(String s:tree)
+				System.out.println(s);
+			
+			tree.add("10");
+			for(String s:tree)
+				System.out.println(s);
+			
+		}		
+	}
+
+

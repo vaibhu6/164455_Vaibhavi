@@ -1,0 +1,9 @@
+package com.vaibhu.cf;
+import java.util.*;
+
+public class ArrayList {
+	
+	
+	ArrayList<String> arr= new ArrayList<String>();
+	
+}

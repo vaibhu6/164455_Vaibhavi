@@ -1,0 +1,19 @@
+package com.vaibhu.cf;
+
+import java.util.HashMap;
+
+public class Question4 {
+
+	public static void main(String[] args) {
+		
+		HashMap<String,String> hash1= new HashMap<String,String>();
+		hash1.put("Name", "Vaibhavi");
+		hash1.put("DOB", "06/06/1996");
+	
+		HashMap<String,String> hash2= new HashMap<String,String>();
+		hash2.put("Name", "Vinit");
+		hash2.put("DOB", "06/06/1996");
+		
+		System.out.println(hash1.equals(hash2));
+}
+}

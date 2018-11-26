@@ -1,0 +1,20 @@
+package com.vaibhu.cf;
+
+import java.util.*;
+
+public class Treeset<S> {
+
+	public static void main(String[] args) {
+		TreeSet<Person> tree = new TreeSet<Person>(); 
+	
+		person1 = new Person(55,(float) 4.5,"John");
+		person2 = new Person(55,(float) 4.5,"John");
+		person3 = new Person(55,(float) 4.5,"John");
+		person4 = new Person(55,(float) 4.5,"John");
+		
+		P
+		for(Person p:tree)
+			System.out.println(p);
+	}
+}
+

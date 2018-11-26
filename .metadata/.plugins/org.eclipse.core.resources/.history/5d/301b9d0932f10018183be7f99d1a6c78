@@ -1,0 +1,19 @@
+package com.vaibhu.cf;
+import java.util.HashSet;
+
+public class Question2 {
+	
+		public static void main(String[] args) {
+			HashSet<String> hash= new HashSet<String>();
+			hash.add("20");
+			hash.add("10");
+			hash.add("40");
+			hash.add("30");
+
+			for(String s:hash)
+				System.out.println(s);
+				
+		}		
+	}
+
+

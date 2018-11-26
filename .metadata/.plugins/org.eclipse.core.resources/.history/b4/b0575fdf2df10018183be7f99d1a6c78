@@ -1,0 +1,10 @@
+package com.vaibhu.cf;
+
+public class Treeset<S> {
+
+	public static void main(String[] args) {
+		Treeset<String>= new Treeset<String>();
+		
+	}
+}
+

@@ -1,0 +1,31 @@
+package com.vaibhu.cf;
+import java.util.HashSet;
+import java.util.LinkedHashSet;
+
+public class Question2 {
+	
+		public static void main(String[] args) {
+			HashSet<Integer> hash= new HashSet<Integer>();
+			hash.add(20);
+			hash.add(10);
+			hash.add(50);
+			hash.add(40);
+			hash.add(30);
+
+			for(Integer s:hash)
+				System.out.println(s);
+			
+			LinkedHashSet<Integer> link= new LinkedHashSet<Integer>();
+			hash.add(20);
+			hash.add(10);
+			hash.add(50);
+			hash.add(40);
+			hash.add(30);
+
+			for(Integer s:hash)
+				System.out.println(s);
+			
+		}		
+	}
+
+

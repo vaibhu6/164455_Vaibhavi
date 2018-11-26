@@ -1,0 +1,17 @@
+package com.vaibhu.cf;
+
+public class Date {
+
+	public int dd;
+	public int mm;
+	public int yyyy;
+	
+	public Date(int dd, int mm, int yyyy) {
+		super();
+		this.dd = dd;
+		this.mm = mm;
+		this.yyyy = yyyy;
+	}
+	
+	
+}
