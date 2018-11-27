@@ -1,27 +1,30 @@
 package com.vaibhu.cf;
 
-public class Date {
 
-	public int dd;
-	public int mm;
-	public int yyyy;
-	
+public class Date {
+	@Override
+	public String toString() {
+		return "Employee [dd=" + dd + ", mm=" + mm + ", yyyy=" + yyyy + "]";
+	}
+
+	private int dd;
+	private int mm;
+	private int yyyy;
+
 	public Date(int dd, int mm, int yyyy) {
-		super(); 
+		super();
 		this.dd = dd;
 		this.mm = mm;
 		this.yyyy = yyyy;
 	}
-
-	@Override
-	public String toString() {
-		return "Date [" + dd + ", " + mm + ", " + yyyy + "]";
-		
+	public int getDd() {
+		return dd;
 	}
-	public static void main(String[] args) {
-		
-		Date d1= new Date(06, 06, 1996);
-		System.out.println(d1.toString());
+	public int getMm() {
+		return mm;
 	}
 
+	public int getYyyy() {
+		return yyyy;
+	}
 }

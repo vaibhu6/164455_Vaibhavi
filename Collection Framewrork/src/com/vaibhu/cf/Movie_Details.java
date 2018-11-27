@@ -1,36 +1,52 @@
 package com.vaibhu.cf;
 
+import java.util.Comparator;
+
 public class Movie_Details {
+	public String Movie_Name;
+	public String Lead_Actor;
+	public String Lead_Actress;
+	public String Genere;
 	
-	String mov_Name;
-	String lead_actor;
-	String lead_actoress;
-	String genre;
-	
-	public String getMov_Name() {
-		return mov_Name;
+
+
+	public Movie_Details(String movie_Name, String lead_Actor,
+			String lead_Actress, String genere) {
+		super();
+		this.Movie_Name = movie_Name;
+		this.Lead_Actor = lead_Actor;
+		this.Lead_Actress = lead_Actress;
+		this.Genere = genere;
 	}
-	public void setMov_Name(String mov_Name) {
-		this.mov_Name = mov_Name;
-	}
-	public String getLead_actor() {
-		return lead_actor;
-	}
-	public void setLead_actor(String lead_actor) {
-		this.lead_actor = lead_actor;
-	}
-	public String getLead_actoress() {
-		return lead_actoress;
-	}
-	public void setLead_actoress(String lead_actoress) {
-		this.lead_actoress = lead_actoress;
-	}
-	public String getGenre() {
-		return genre;
-	}
-	public void setGenre(String genre) {
-		this.genre = genre;
+
+	public String getMovie_Name() {
+		return Movie_Name;
 	}
 	
+	public String getLead_Actor() {
+		return Lead_Actor;
+	}
+
+	public String getLead_Actress() {
+		return Lead_Actress;
+	}
 	
+	public String getGenere() {
+		return Genere;
+	}
+	
+}
+class Genere_Comparator implements Comparator<Movie_Details> {
+
+	@Override
+	public int compare(Movie_Details s1,Movie_Details s2) {
+		return s1.getGenere().compareTo(s2.getGenere());		
+	}
+}
+class movie_Name_Comparator implements Comparator<Movie_Details> {
+
+	@Override
+	public int compare(Movie_Details s1,Movie_Details s2) {
+		return s1.getMovie_Name().compareTo(s2.getMovie_Name());		
+	}
 }

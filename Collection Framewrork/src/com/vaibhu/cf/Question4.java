@@ -10,7 +10,5 @@ public class Question4 {
 		hash1.put( 06/06/1996 , "Vaibhavi" );
 		hash1.put( 06/06/1996 , "Vinit" );
 		hash1.put( 06/06/1996 , "Kajal" );
-	
-		
-}
+	}
 }
