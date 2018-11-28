@@ -1,0 +1,16 @@
+package com.lambda.one;
+
+public interface Addition {
+	int add(int a, int b);
+}
+interface Subtract {
+	int sub(int a, int b);
+}
+
+interface Multiply {
+	int mul(int a, int b);
+}
+
+interface Divide {
+	int div(int a, int b);
+}

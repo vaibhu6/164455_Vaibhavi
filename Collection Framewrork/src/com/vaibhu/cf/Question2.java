@@ -17,7 +17,7 @@ public class Question2 {
 			
 			System.out.println("Hashset elements");
 			
-			Iterator i=hash.iterator();
+			Iterator<Integer> i=hash.iterator();
 			while(i.hasNext())
 				System.out.println(i.next());
 			
@@ -33,9 +33,10 @@ public class Question2 {
 			link.add(40);
 			link.add(30);
 			link.add(70);
+			link.add(80);
 			
 			System.out.println("LinkedHashset elements");
-			Iterator i1=link.iterator();
+			Iterator<Integer> i1=link.iterator();
 			while(i1.hasNext())
 				System.out.println(i1.next());
 			

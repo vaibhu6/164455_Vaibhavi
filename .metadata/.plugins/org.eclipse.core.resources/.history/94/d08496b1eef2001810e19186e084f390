@@ -1,0 +1,20 @@
+package com.example;
+
+interface TestInterface {
+    public void hans();                 //has no input parameters</br>
+    public void hans(String a);         //has 1 input parameter, type String</br>
+    public void hans(String a, int b);  //has 2 input parameters, 1. type = String, 2. type = int</br>
+    public void hans(int a, int b);     //has also 2 input parameters, but not the same and a different order than `hans(String a, int a);`, so you could distinguish both
+}
+
+public class Test {
+
+    public static void main(String...args) {
+        TestInterface i = () -> System.out.println("Hans");
+        i = (String a) -> System.out.println(a);
+        i = (String a, int b) -> System.out.println(a + b);
+        i = (int a, int b) -> System.out.println(a);
+
+        i.hans(2, 3);   //Which method would be called? Of course the one that would take 2 integer arguments. :)
+    }
+}

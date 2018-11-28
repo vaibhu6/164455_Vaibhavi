@@ -1,0 +1,14 @@
+package com.java8;
+
+public class Greeting{
+	
+	public static void main(String[] args) {
+		Greeter gre= () -> System.out.println("Hello World");
+		gre.greet();
+		Greeter a = () -> System.out.println("Without parameter");
+		a.greet();
+		//Greeter ab = (int a) ->  a*2; 
+		//ab.greeting(2);
+		
+	}
+}

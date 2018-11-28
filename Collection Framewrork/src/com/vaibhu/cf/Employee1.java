@@ -14,6 +14,8 @@ public class Employee1 {
 		 Employee e4 =new Employee(4,"Sweta");
 		 hash.put(e4,4);
 		 
+		 System.out.println(e1.equals(e2));
+		 
 		 System.out.println(e1.hashCode());
 		 System.out.println(e2.hashCode());
 		 System.out.println(e3.hashCode());

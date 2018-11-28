@@ -1,0 +1,17 @@
+package com.generic;
+
+public class MyList<T>{
+	public void add(){
+		
+	}
+	public void remove(){
+		
+	}
+	public T get(){
+		return this.t;
+		
+	}
+	public void getAll(){
+		
+	}
+}

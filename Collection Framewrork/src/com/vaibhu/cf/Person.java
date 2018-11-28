@@ -1,15 +1,8 @@
 package com.vaibhu.cf;
 
 import java.util.Comparator;
-import java.util.TreeSet;
 
 class Person {
-	
-	@Override
-	public String toString() {
-		return "Person [weight=" + weight + ", height=" + height + ", name="
-				+ name + "]";
-	}
 
 	double weight;
 	double height;
@@ -20,6 +13,12 @@ class Person {
 		this.weight = weight;
 		this.height = height;
 		this.name = name;
+	}
+	
+	@Override
+	public String toString() {
+		return "Person [weight=" + weight + ", height=" + height + ", name="
+				+ name + "]";
 	}
 	
 }

@@ -1,0 +1,11 @@
+package com.java8;
+
+import java.util.Arrays;
+import java.util.List;
+
+public class ListJava8 {
+	List<Person> list =Arrays.asList(
+			new Person("Vaibhavi","Sawant",4),
+			new Person("Neha","Patil",7)
+			); 
+}

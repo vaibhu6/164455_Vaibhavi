@@ -17,7 +17,7 @@ class Treeset{
 		tree.add(person3);
 		tree.add(person4);
 		
-		Iterator i= tree.iterator();
+		Iterator<Person> i= tree.iterator();
 		while(i.hasNext())
 		{
 			System.out.println(i.next());

@@ -12,7 +12,7 @@ public class Question3 {
 		list.add(4);
 		list.add(5);
 		
-		ListIterator listIterator=list.listIterator(list.size());
+		ListIterator<Integer> listIterator=list.listIterator(list.size());
 		while(listIterator.hasPrevious())
 		{
 			System.out.println(listIterator.previous());

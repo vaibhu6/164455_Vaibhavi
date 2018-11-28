@@ -1,0 +1,37 @@
+package com.vaibhu.cf;
+
+public class BankAccountList {
+
+	private double acc_balance;
+	private int acc_ID;
+	private String accountHoldername;
+	public double getAcc_balance() {
+		return acc_balance;
+	}
+	public void setAcc_balance(double acc_balance) {
+		this.acc_balance = acc_balance;
+	}
+	public int getAcc_ID() {
+		return acc_ID;
+	}
+	public void setAcc_ID(int acc_ID) {
+		this.acc_ID = acc_ID;
+	}
+	public String getAccountHoldername() {
+		return accountHoldername;
+	}
+	public void setAccountHoldername(String accountHoldername) {
+		this.accountHoldername = accountHoldername;
+	}
+	
+	public void withdraw(double amount)
+	{
+		
+	}
+	
+	public void deposit(double amount)
+	{
+		
+	}
+	
+}

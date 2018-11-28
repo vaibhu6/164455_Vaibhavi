@@ -1,0 +1,5 @@
+package com.lambda.one;
+
+public interface Calculate {
+
+}

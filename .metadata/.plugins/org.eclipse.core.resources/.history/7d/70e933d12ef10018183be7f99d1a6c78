@@ -1,9 +1,0 @@
-package com.vaibhu.cf;
-
-public class Person {
-
-	public Person(int i, int j, String string) {
-		// TODO Auto-generated constructor stub
-	}
-
-}

@@ -1,0 +1,24 @@
+package com.generic;
+
+public class MyList<T>{
+	private T t;
+	private T t1[];
+	private int length=t1.length;
+	
+	public int add(){
+		length++;
+		return length;
+	}
+	public T remove(){
+		return t;
+		
+	}
+	public T get(){
+		return this.t;
+		
+	}
+	public T getAll(){
+		return t;
+		
+	}
+}

@@ -1,0 +1,29 @@
+package com.generic;
+
+import java.util.ArrayList;
+
+public class MyList<T>{
+
+	private T t;
+	private T t1[];
+	private int length=t1.length;
+	
+	public int add(int element){
+		length++;
+		return length;
+	}
+	public int remove(){
+		length--;
+		return length;
+		
+	}
+	public T get(){
+		return this.t;
+		
+	}
+	public T getAll(){
+		return t;
+		
+	}
+}
+

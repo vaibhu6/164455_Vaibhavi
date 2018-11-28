@@ -1,0 +1,23 @@
+package com.generic;
+
+import java.util.ArrayList;
+
+public class MyList<T>{
+
+	ArrayList<T> list= new ArrayList<T>();
+
+	public void add(T a){
+		list.add(a);
+	}
+	public void remove(T a){
+		list.remove(a);	
+	}
+	public void get(){
+		list.get(list);
+	}
+	public T getAll(){
+		return t;
+		
+	}
+}
+

@@ -1,0 +1,11 @@
+package com.generic;
+
+import java.util.ArrayList;
+
+class MyTest{
+
+	public static void main(String[] args) {
+	
+	}
+
+}
