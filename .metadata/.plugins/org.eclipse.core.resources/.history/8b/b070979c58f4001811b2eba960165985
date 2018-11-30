@@ -1,0 +1,158 @@
+package com.lambda.four;
+
+import java.util.*;
+
+public class Words {
+	public static void main(String[] args) {
+		
+		List<String> list1 = Arrays.asList("Apple", "Mango", "Banana");
+		ArrayList<String> list = new ArrayList<String>();
+		
+			
+			@Override
+			public <T> T[] toArray(T[] arg0) {
+				// TODO Auto-generated method stub
+				return null;
+			}
+			
+			@Override
+			public Object[] toArray() {
+				// TODO Auto-generated method stub
+				return null;
+			}
+			
+			@Override
+			public List<String> subList(int arg0, int arg1) {
+				// TODO Auto-generated method stub
+				return null;
+			}
+			
+			@Override
+			public int size() {
+				// TODO Auto-generated method stub
+				return 0;
+			}
+			
+			@Override
+			public String set(int arg0, String arg1) {
+				// TODO Auto-generated method stub
+				return null;
+			}
+			
+			@Override
+			public boolean retainAll(Collection<?> arg0) {
+				// TODO Auto-generated method stub
+				return false;
+			}
+			
+			@Override
+			public boolean removeAll(Collection<?> arg0) {
+				// TODO Auto-generated method stub
+				return false;
+			}
+			
+			@Override
+			public String remove(int arg0) {
+				// TODO Auto-generated method stub
+				return null;
+			}
+			
+			@Override
+			public boolean remove(Object arg0) {
+				// TODO Auto-generated method stub
+				return false;
+			}
+			
+			@Override
+			public ListIterator<String> listIterator(int arg0) {
+				// TODO Auto-generated method stub
+				return null;
+			}
+			
+			@Override
+			public ListIterator<String> listIterator() {
+				// TODO Auto-generated method stub
+				return null;
+			}
+			
+			@Override
+			public int lastIndexOf(Object arg0) {
+				// TODO Auto-generated method stub
+				return 0;
+			}
+			
+			@Override
+			public Iterator<String> iterator() {
+				// TODO Auto-generated method stub
+				return null;
+			}
+			
+			@Override
+			public boolean isEmpty() {
+				// TODO Auto-generated method stub
+				return false;
+			}
+			
+			@Override
+			public int indexOf(Object arg0) {
+				// TODO Auto-generated method stub
+				return 0;
+			}
+			
+			@Override
+			public String get(int arg0) {
+				// TODO Auto-generated method stub
+				return null;
+			}
+			
+			@Override
+			public boolean containsAll(Collection<?> arg0) {
+				// TODO Auto-generated method stub
+				return false;
+			}
+			
+			@Override
+			public boolean contains(Object arg0) {
+				// TODO Auto-generated method stub
+				return false;
+			}
+			
+			@Override
+			public void clear() {
+				// TODO Auto-generated method stub
+				
+			}
+			
+			@Override
+			public boolean addAll(int arg0, Collection<? extends String> arg1) {
+				// TODO Auto-generated method stub
+				return false;
+			}
+			
+			@Override
+			public boolean addAll(Collection<? extends String> arg0) {
+				// TODO Auto-generated method stub
+				return false;
+			}
+			
+			@Override
+			public void add(int arg0, String arg1) {
+				// TODO Auto-generated method stub
+				
+			}
+			
+			@Override
+			public boolean add(String arg0) {
+				// TODO Auto-generated method stub
+				return false;
+			}
+		};
+		
+		list.removeIf(n -> (n.length() % 2 == 0 ));
+	
+		for(String s : list){
+			System.out.println(s);
+		}
+	
+	}
+}

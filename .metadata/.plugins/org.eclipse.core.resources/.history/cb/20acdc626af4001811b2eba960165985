@@ -1,0 +1,10 @@
+package com.stream.classes;
+
+public class Fruit {
+
+	String name;
+	int calories; 
+	int price; 
+	String color; 
+
+}

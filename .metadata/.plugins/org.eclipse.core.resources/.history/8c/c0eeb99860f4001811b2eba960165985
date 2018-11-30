@@ -1,0 +1,20 @@
+package com.lambda.five;
+
+import java.util.ArrayList;
+
+class Word{
+	public static void main(String[] args) {
+		
+		ArrayList<String> list =new ArrayList<String>();
+		list.add("sanjay");
+		list.add("ulka");
+		list.add("vaibhavi");
+		list.add("neha");
+		
+	for(String p:list){
+		System.out.println(p.charAt(0));
+	}
+			
+		
+	}
+}

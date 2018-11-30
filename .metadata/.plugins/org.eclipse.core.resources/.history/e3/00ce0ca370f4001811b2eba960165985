@@ -1,0 +1,20 @@
+package com.stream.classes;
+
+import java.util.ArrayList;
+
+public class Test {
+	public static void main(String[] args) {
+		ArrayList<Fruit> fruit = new ArrayList<Fruit>();
+		fruit.add(new Fruit("Mango",56,250,"Yellow"));
+		fruit.add(new Fruit("Apple",75,250,"Red"));
+		fruit.add(new Fruit("Strawberry",150,250,"Red"));
+		fruit.add(new Fruit("Pineapple",85,250,"Yellow"));
+		fruit.add(new Fruit("Watermelon",105,250,"Green"));
+		fruit.add(new Fruit("Guava",90,250,"Yellow"));
+		fruit.add(new Fruit("Banana",125,250,"Yellow"));
+		fruit.add(new Fruit("Orange",110,250,"Orange"));
+		fruit.add(new Fruit("Lichi",60,250,"White"));
+		fruit.add(new Fruit("Grape",98,250,"Green"));
+	}
+	
+}

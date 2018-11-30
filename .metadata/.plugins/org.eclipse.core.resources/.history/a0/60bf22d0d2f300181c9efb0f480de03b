@@ -1,0 +1,30 @@
+package com.lambda.two;
+
+public class Order {
+	public int orderNO;
+	String status;
+	
+	public Order(int order, String status) {
+		super();
+		this.orderNO = order;
+		this.status = status;
+	}
+
+	public int getOrder() {
+		return orderNO;
+	}
+
+	public void setOrder(int order) {
+		this.orderNO = order;
+	}
+
+	public String getStatus() {
+		return status;
+	}
+
+	public void setStatus(String status) {
+		this.status = status;
+	}
+	
+	
+}

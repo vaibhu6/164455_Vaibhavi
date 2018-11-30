@@ -1,0 +1,29 @@
+package com.stream.classes;
+
+import java.awt.*;
+import java.io.ObjectInputStream.GetField;
+import java.util.*;
+import java.util.List;
+import java.util.stream.Collectors;
+
+public class Test {
+	public static void main(String[] args) {
+		ArrayList<Fruit> fruit = new ArrayList<Fruit>();
+		fruit.add(new Fruit("Mango",56,250,"Yellow"));
+		fruit.add(new Fruit("Apple",75,150,"Red"));
+		fruit.add(new Fruit("Strawberry",150,300,"Red"));
+		fruit.add(new Fruit("Pineapple",85,200,"Yellow"));
+		fruit.add(new Fruit("Watermelon",250,250,"Green"));
+		fruit.add(new Fruit("Guava",90,100,"Yellow"));
+		fruit.add(new Fruit("Banana",125,225,"Yellow"));
+		fruit.add(new Fruit("Orange",110,115,"Orange"));
+		fruit.add(new Fruit("Lichi",60,305,"White"));
+		fruit.add(new Fruit("Grape",98,300,"Green"));
+	
+		System.out.println("\n " +fruit.stream()
+				.filter(x -> x.getCalories()>100)
+				.collect(Collectors.toList()));
+				 
+	}
+	
+}

@@ -1,9 +1,10 @@
 package vaibhu;
-import java.util.TreeSet;
+import java.util.ArrayList;
+
 
 public class Treeset {
 	public static void main(String[] args) {
-		TreeSet<String> tree= new TreeSet<String>();
+		ArrayList<String> tree= new ArrayList<String>();
 		tree.add("20");
 		tree.add("10");
 		tree.add("40");

@@ -1,0 +1,12 @@
+package com.stream.Questions;
+
+import java.util.ArrayList;
+
+import com.stream.classes.Transaction;
+
+public class TransactionTest {
+	public static void main(String[] args) {
+		ArrayList<Transaction> list = new ArrayList<Transaction>();
+		list.add(new Transaction(("Vaibhavi","Mumbai"), 2012, 15000));
+	}
+}

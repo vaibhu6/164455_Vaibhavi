@@ -1,0 +1,27 @@
+package com.stream.Questions;
+
+import java.util.ArrayList;
+import java.util.stream.Collector;
+import java.util.stream.Collectors;
+
+import com.stream.classes.Trader;
+
+public class TraderTest {
+	public static void main(String[] args) {
+		ArrayList<Trader> trader= new ArrayList<Trader>();
+		trader.add(new Trader("Vaibhavi","Mumbai"));
+		trader.add(new Trader("Vinit","Mysore"));
+		trader.add(new Trader("Abhay","Pune"));
+		trader.add(new Trader("Jagadish","Bangalore"));
+		trader.add(new Trader("Kajal","Kolhapur"));
+		trader.add(new Trader("Kajal","Pune"));
+		trader.add(new Trader("Vaibhavi","Bangalore"));
+		trader.add(new Trader("Vinit","Mumbai"));
+		trader.add(new Trader("Abhay","Bangalore"));
+		
+		 trader.stream()
+		.map(x-> x.getCity()).distinct().
+		forEach(System.out.println(x.getName));
+		
+	}
+}

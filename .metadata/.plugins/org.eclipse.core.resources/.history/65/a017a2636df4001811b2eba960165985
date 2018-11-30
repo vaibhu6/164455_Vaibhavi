@@ -1,0 +1,6 @@
+package com.stream.classes;
+
+public class Trader {
+	String name; 
+	String city;
+}

@@ -1,0 +1,19 @@
+package com.lambda.seven;
+
+import java.util.HashMap;
+
+public class Map {
+	public static void main(String[] args) {
+		HashMap<Integer, String> hash = new HashMap<Integer, String>();
+		hash.put(1, "Vaibhu");
+		hash.put(2, "Neha");
+		hash.put(3, "Vinit");
+		hash.put(4, "Kajal");
+		hash.put(5, "Abhay");
+	
+		StringBuilder sb = new StringBuilder();
+		
+		
+		
+	}
+}

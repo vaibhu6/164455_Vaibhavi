@@ -1,0 +1,10 @@
+package com.stream.classes;
+
+import java.util.ArrayList;
+
+public class Test {
+	public static void main(String[] args) {
+		ArrayList<Fruit> fruit = new ArrayList<Fruit>();
+		fruit.add(new Fruit("Mango",1500,250,"Yellow"));
+	}
+}

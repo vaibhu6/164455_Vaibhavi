@@ -1,0 +1,16 @@
+package com.lambda.eigth;
+
+public class Test {
+
+	public static void main(String[] args) {
+		new Thread(()->{ con.print(i);
+		}).start();
+
+	}
+
+	private static char[] print(int i) {
+		Consumer con
+		return null;
+	}
+
+}

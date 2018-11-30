@@ -1,0 +1,19 @@
+package com.lambda.two;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.function.Consumer;
+
+public class Orders {
+	public static void main(String[] args) {
+		ArrayList<Order> list = (ArrayList<Order>) Arrays.asList(
+				new Order(10000,"ACCEPTED"),
+				new Order(10000,"ACCEPTED"),
+				new Order(10000,"ACCEPTED"),
+				new Order(10000,"ACCEPTED"),
+				new Order(10000,"ACCEPTED")
+				);
+		
+		Consumer<Order> consumer = (int orderNo, String status)->{}		
+	}
+}

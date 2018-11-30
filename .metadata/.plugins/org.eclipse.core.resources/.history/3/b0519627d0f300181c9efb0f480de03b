@@ -1,0 +1,6 @@
+package com.lambda.two;
+
+public interface OrderInterface {
+
+	
+}

@@ -1,0 +1,6 @@
+package com.lambda.two;
+
+public class Order {
+	public int order;
+	String status;
+}

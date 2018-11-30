@@ -1,0 +1,16 @@
+package com.lambda.two;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+
+public class Orders {
+	public static void main(String[] args) {
+		ArrayList<Order> list = Arrays.asList(
+				new Order(10000,"ACCEPTED"),
+				new Order(10000,"ACCEPTED"),
+				new Order(10000,"ACCEPTED"),
+				new Order(10000,"ACCEPTED"),
+				new Order(10000,"ACCEPTED")
+				);
+	}
+}

@@ -1,0 +1,25 @@
+package com.lambda.two;
+
+import java.io.ObjectInputStream.GetField;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.function.BinaryOperator;
+import java.util.function.Consumer;
+import java.util.function.Predicate;
+
+public class Orders {
+	public static void main(String[] args) {
+		ArrayList<Order> list = (ArrayList<Order>) Arrays.asList(
+				new Order(10000,"ACCEPTED"),
+				new Order(10000,"ACCEPTED"),
+				new Order(10000,"ACCEPTED"),
+				new Order(10000,"ACCEPTED"),
+				new Order(10000,"ACCEPTED")
+				);
+	
+		
+		Predicate<Order> predicate= (int orderNo)-> {
+			orderNo>10000;
+		};
+	}
+}
