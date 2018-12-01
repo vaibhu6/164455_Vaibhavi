@@ -1,0 +1,62 @@
+package dom.sql.com;
+
+import java.util.ArrayList;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
+
+public class EmpTest {
+
+	public static void main(String[] args) {
+		ArrayList<Employee> emp = new ArrayList<Employee>();
+		emp.add(new Employee(7369, "SMITH", "CLERK", 7902, 800, 200, 20));
+		emp.add(new Employee(7499, "ALLEN", "SALESMAN", 7698, 1200, 1300, 30));
+		emp.add(new Employee(7521, "WARD", "SALESMAN", 7698, 1250, 1500, 60));
+		emp.add(new Employee(7566, "JONES", "MANAGER", 7839, 2975, 300, 10));
+		emp.add(new Employee(7654, "MARTIN", "SALESMAN", 7698, 1250, 1400, 30));
+		emp.add(new Employee(7698, "BLAKE", "MANAGER", 7839, 2850, 150, 20));
+		emp.add(new Employee(7782, "CLARK", "MANAGER", 7839, 2450, 500, 30));
+		emp.add(new Employee(7788, "SCOTT", "ANALYST", 7566, 1500, 2000, 50));
+		emp.add(new Employee(7839, "KING", "PRESIDENT", 7567, 5000, 3000, 10));
+		emp.add(new Employee(7844, "TURNER", "SALESMAN", 7698, 1500, 600, 30));
+		emp.add(new Employee(7876, "ADAMS", "CLERK", 7788, 1100, 5000, 60));
+		emp.add(new Employee(7900, "JAMES", "CLERK", 7698, 950, 250, 20));
+		emp.add(new Employee(7902, "FORD", "ANALYST", 7566, 3000, 350, 10));
+		emp.add(new Employee(7934, "MILLER", "CLERK", 7782, 1300, 4000, 40));
+
+		// List the names, numbers and department No of all clerks.
+		System.out.println("==============1=============");
+		Stream<Employee> emp1 = emp.stream().filter(
+				st -> st.getJOB() == ("CLERK"));
+		emp1.forEach(e -> System.out.println("EmpNo:-" + e.getEMPNO()
+				+ ", EmpName:-" + e.getENAME() + ", EmpJob:-" + e.getJOB()
+				+ ", DeptId:-" + e.getDEPTID()));
+
+		// Find the depart numbers and the name of employee of all dept with
+		// Deptno greater or equal to 20.
+		System.out.println("==============2=============");
+		Stream<Employee> emp2 = emp.stream().filter(st -> st.getDEPTID() >= 20);
+		emp2.forEach(e -> System.out.println("DEPTID:-" + e.getDEPTID()
+				+ ", EMPName:-" + e.getENAME() + ", EMPJob:-" + e.getJOB()));
+
+		// Find the employees whose commission is greater than their salary.
+		// System.out.println("==============3=============");
+		// Stream<Employee> emp3 = emp.stream()
+		//
+		// .sorted((p1,p2)->{
+		// if(p1.getSAL()<p2.getCOMM()){
+		// return -1;
+		// }
+		// return 1;
+		// }).map(a->a.getEName())));
+		// emp3.forEach(e->System.out.println("DEPTID:-" + e.getDEPTID() +
+		// ", EMPName:-" + e.getENAME() + ", EMPJob:-" + e.getJOB())
+
+		System.out
+				.println(" the employees whose commission is greater than their salary:");
+		emp.stream()
+				.filter(x -> x.getCOMM() > x.getSAL())
+				.map(n -> "EmpName: " + n.getENAME() + ", Sal: " + n.getSAL()
+						+ ", comm:" + n.getCOMM()).forEach(System.out::println);
+	}
+
+}

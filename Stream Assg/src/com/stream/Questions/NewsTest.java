@@ -3,6 +3,7 @@ package com.stream.Questions;
 import java.awt.*;
 import java.io.ObjectInputStream.GetField;
 import java.util.*;
+import java.util.Map.Entry;
 import java.util.stream.Collector;
 import java.util.stream.Collectors;
 
@@ -38,30 +39,62 @@ public class NewsTest {
 		list.add(new News(14, "Vinit", "Neha", "Its good"));
 		
 		System.out.println("Find out the newsId which has received maximum comments.");
-		
-		ArrayList<News> question1=(ArrayList<News>) list.stream()
-					.collect(Collectors.toList());
-		System.out.println(question1);
+	
+		Map<Object, Long> question4 = list.stream()
+				.collect(Collectors.groupingBy(o -> o.getNewsId(),Collectors.counting()));
+		System.out.println(question4);
+		long max=0;
+		int key=0;
+		for(Entry<Object, Long> entry:question4.entrySet())
+		{
+			if(entry.getValue()>max)
+			{
+				max=entry.getValue();
+				key= (int) entry.getKey();
+			}
+		}
+		System.out.println("NewsId And Total Comments:\n"+question4); 			
 		
 		System.out.println("---------------------------------------------------------------------------------");
 		
 		System.out.println("Find out how many times the word 'budget' arrived in user comments all news.");
 		
-		list.stream()
-			.forEach(x-> System.out.println(x.getComment().contains("budget")));
+		Long question5=list.stream()
+				.filter(x-> x.getComment().contains("budget")).count();
 		
+		System.out.println(question5);
 		
 		System.out.println("---------------------------------------------------------------------------------");
 		
-		list.stream().filter(x-> x.getComment().contains("budget")); 
-	
 		System.out.println("Find out which user has posted maximum comments.");
 		
-		//list.stream()
-			//.filter(x->x.getNewsId()).count()
-			//.forEach(x->System.out.println(x));
+
+		Map<Object, Long> question6 = list.stream()
+				.collect(Collectors.groupingBy(e -> e.getCommentByUser(),Collectors.counting()));
+				System.out.println("Comment by user and no. of comments:\n"+question6);
+				long maxNumber=0;
+				Object keyValue=0;
+				for(Entry<Object, Long> entry:question6.entrySet())
+				{							
+					if(entry.getValue()>maxNumber)
+					{
+						maxNumber=entry.getValue();
+						keyValue= entry.getKey();
+					}
+				}
+				System.out.println("User "+keyValue+" got max number of comments that is : "+maxNumber);
 		
 		System.out.println("---------------------------------------------------------------------------------");
+		
+		System.out.println("Display commentByUser wise number of comments");
+		
+		Map<Object,Long> question7= list.stream()
+									.collect(Collectors.groupingBy(x->x.getCommentByUser(),Collectors.counting()));
+		System.out.println(question7);
+		
+		System.out.println("----------------------------------------------------------------------------------");
+		
+
 		
 	}
 }

@@ -1,0 +1,12 @@
+package com.collections.carparking;
+
+public class Parked_CarOwenerList {
+	//Create class Parked_CarOwenerList which will have method’s int add_new_car(Parked_CarOwner_Details obj),
+	//remove_car(), get_parked_car_location(token)
+	
+	int add_new_car(Parked_CarOwner_Details obj){
+		
+	}
+	//remove_car(), get_parked_car_location(token)
+	
+}

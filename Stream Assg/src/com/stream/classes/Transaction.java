@@ -39,7 +39,7 @@ public class Transaction {
 	@Override
 	public String toString() {
 		return "Transaction [trader=  " + trader + ", year=  " + year + ", value=  "
-				+ value + "]";
+				+ value + "]\n";
 	}
 	
 	
