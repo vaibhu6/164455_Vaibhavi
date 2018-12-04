@@ -1,0 +1,28 @@
+<html>
+<head>
+</head>
+<body>
+	<form>
+		First name:<input type="text" name="firstname"><br>
+  		Last name: <input type="text" name="lastname"><br>
+  		Gender:<br>
+  		<input type="radio" name="gender" value="male" checked> Male<br>
+ 		<input type="radio" name="gender" value="female"> Female<br>
+ 		
+ 		<select name="hobbies" size="4" multiple>
+  			<option value="Dancing">Dancing</option>
+  			<option value="Singing">Singing</option>
+  			<option value="Drawing">Drawing</option>
+		</select>
+ 		<input list="browsers">
+ 	 		<datalist id="city">
+    		<option value="Mumbai">
+    		<option value="Pune">
+    		<option value="Bangalore">
+   		 	<option value="Indore">
+ 			 </datalist> 
+ 		 <input type="submit" value="Submit">
+	
+	</form>
+</body>
+</html>

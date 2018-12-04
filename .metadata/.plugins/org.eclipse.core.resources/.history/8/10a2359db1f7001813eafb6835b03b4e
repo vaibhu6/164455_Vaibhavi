@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="ISO-8859-1">
+			<title>Insert title here</title>
+	</head>
+	<body>
+		<h1> Vaibhavi Website</h1> <hr>
+		<form action="/UserValidation">
+		Username:<input type="text" name="username" ><br>
+		Password:<input type="password" name="password" >
+		</form>
+		
+		<a href="/UserValidation/HTML/login.html">Login page</a>
+	</body>
+</html>

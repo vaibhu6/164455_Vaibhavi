@@ -1,6 +1,54 @@
+<!DOCTYPE html>
 <html>
 <head>
+
+<title>Form Validation</title>
 </head>
-<body>This is my page
+<body>
+	<center>
+		<form action='HelloDemo'>
+			<table align="center">
+				<tr>
+					<td>Username:</td>
+					<td><input type="text" size=25 name="uname"></td>
+				</tr>
+				<tr>
+					<td>Gender:</td>
+					<td><input type="radio" name="gender" value="male">
+						Male <input type="radio" name="gender" value="female">
+						Female <input type="radio" name="gender" value="other">
+						Other</td>
+					</br>
+				</tr>
+				<tr>
+					<td>Hobbies</td>
+					<td>
+						 <input type="checkbox" name="hobby"value="Reading Books">
+						Playing Games<br> <input type="checkbox" name="hobby1"value="games">
+						Watching Movies<br> <input type="checkbox" name="hobby2"value="movies" >
+						Reading Books<br>
+					</td>
+				</tr>
+
+
+
+				<tr>
+					<td>Select City:</td>
+					<td><select name="city">
+							<option value="select">Select</option>
+							<option value="bangalore">Bangalore</option>
+							<option value="chennai">Chennai</option>
+							<option value="hyderabad">Hyderabad</option>
+							<option value="andra">Andhra</option>
+					</select></td>
+					</br>
+				</tr>
+				<tr>
+					<td><input type="submit" value="Submit"></td>
+				</tr>
+				</table>
+			</form>
+			
+	</center>
 </body>
 </html>

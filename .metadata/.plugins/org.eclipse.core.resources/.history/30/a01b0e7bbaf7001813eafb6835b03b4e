@@ -1,0 +1,11 @@
+package com.vaibhu.dao;
+
+import java.util.ArrayList;
+
+public class UserDAO {
+	ArrayList<User> userlist;
+	
+	public UserDAO(){
+		userList=new ArrayList<>();
+	}
+ }

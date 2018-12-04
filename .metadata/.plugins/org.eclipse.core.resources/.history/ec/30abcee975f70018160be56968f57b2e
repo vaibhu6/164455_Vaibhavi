@@ -1,0 +1,5 @@
+package com.servlet.assg;
+
+public @interface WebServlet {
+
+}
