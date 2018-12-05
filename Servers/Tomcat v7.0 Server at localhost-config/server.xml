@@ -126,7 +126,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log." suffix=".txt"/>
 
-      <Context docBase="Demo" path="/Demo" reloadable="true" source="org.eclipse.jst.jee.server:Demo"/><Context docBase="hello" path="/hello" reloadable="true" source="org.eclipse.jst.jee.server:hello"/><Context docBase="First" path="/First" reloadable="true" source="org.eclipse.jst.jee.server:First"/><Context docBase="Serv Assg" path="/Serv_Assg" reloadable="true" source="org.eclipse.jst.jee.server:Serv Assg"/><Context docBase="UserValidation" path="/UserValidation" reloadable="true" source="org.eclipse.jst.jee.server:UserValidation"/></Host>
+      <Context docBase="Demo" path="/Demo" reloadable="true" source="org.eclipse.jst.jee.server:Demo"/><Context docBase="hello" path="/hello" reloadable="true" source="org.eclipse.jst.jee.server:hello"/><Context docBase="UserValidationProject" path="/UserValidationProject" reloadable="true" source="org.eclipse.jst.jee.server:UserValidationProject"/><Context docBase="Serv Assg" path="/Serv_Assg" reloadable="true" source="org.eclipse.jst.jee.server:Serv Assg"/><Context docBase="First" path="/First" reloadable="true" source="org.eclipse.jst.jee.server:First"/><Context docBase="UserValidationAssg" path="/UserValidationAssg" reloadable="true" source="org.eclipse.jst.jee.server:UserValidationAssg"/></Host>
     </Engine>
   </Service>
 </Server>

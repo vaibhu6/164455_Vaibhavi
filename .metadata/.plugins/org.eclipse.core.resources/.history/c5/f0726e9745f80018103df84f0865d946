@@ -1,0 +1,23 @@
+package com.vaibhu.dao;
+
+import java.util.ArrayList;
+
+import com.vaibhu.pojo.User;
+
+public class UserDAO {
+	ArrayList<User> userList;
+
+	public UserDAO() {
+		userList=new ArrayList<User>();
+		
+		userList.add(new User("Vaibhavi","java","Admin"));
+		userList.add(new User("Neha","sql","User"));
+		userList.add(new User("Vinit","java","User"));
+		userList.add(new User("Kajal","sql","Admin"));
+	}
+	
+	public String getUserType(String username, String password){
+		userList.stream().filter(x->x.getUsername().equals(Username) && x.getPassword().equals(Password));
+	}
+	
+}
