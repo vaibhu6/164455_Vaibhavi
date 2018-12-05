@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 import com.vaibhu.pojo.User;
 
-public class UserDAO {
+public class UserDAO implements IUserDAO {
 	ArrayList<User> userList;
 
 	public UserDAO() {
@@ -21,6 +21,25 @@ public class UserDAO {
 		 if(a.getUsername().equals(username) && a.getPassword().equals(password))
 			 return a.getStatus();
 	 }throw new InvalidUserException("Incorrect Details");
+	}
+
+	@Override
+	public void addUser(User user) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void changePassword(String username, String oldPassword,
+			String newPassword) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void removeUser(User user) {
+		// TODO Auto-generated method stub
+		
 	}
 	
 }

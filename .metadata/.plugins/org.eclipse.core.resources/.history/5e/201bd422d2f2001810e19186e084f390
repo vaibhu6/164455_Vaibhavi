@@ -1,7 +1,0 @@
-package com.java8;
-
-public class Greeting implements Greeter{
-	
-	public static void main(String[] args) {
-	}
-}

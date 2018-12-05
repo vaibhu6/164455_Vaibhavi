@@ -1,0 +1,5 @@
+package com.vaibhu.dao;
+
+public interface IUserDAO {
+
+}

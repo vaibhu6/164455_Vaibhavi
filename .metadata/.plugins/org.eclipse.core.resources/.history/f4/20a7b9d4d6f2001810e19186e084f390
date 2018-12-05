@@ -1,7 +1,0 @@
-package com.java8;
-
-public class Person {
-	String firstname;
-	String lastname;
-	int age;
-}

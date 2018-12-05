@@ -1,0 +1,31 @@
+package com.vaibhu.dao;
+import com.vaibhu.pojo.*;
+
+public class UserDAOVer2 implements IUserDAO{
+
+	@Override
+	public String getUserType(String username, String password) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void addUser(User user) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void changePassword(String username, String oldPassword,
+			String newPassword) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void removeUser(User user) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

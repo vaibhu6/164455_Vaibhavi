@@ -1,9 +1,0 @@
-package com.lambda.one;
-
-public class Calculator {
-	public static void main(String[] args) {
-		
-		Addition ad=(int a,int b) -> a + b ;
-		System.out.println("Addition = " + ad.add(2,3));
-	}
-}

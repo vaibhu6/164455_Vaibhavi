@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
-    <wb-module deploy-name="User_Validation">
-        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
-        <property name="context-root" value="User_Validation"/>
-        <property name="java-output-path" value="/User_Validation/build/classes"/>
-    </wb-module>
-</project-modules>

@@ -1,6 +1,0 @@
-package com.java8;
-
-public interface Greeter {
-	public void greet();
-	public void greeting(int a);
-}
