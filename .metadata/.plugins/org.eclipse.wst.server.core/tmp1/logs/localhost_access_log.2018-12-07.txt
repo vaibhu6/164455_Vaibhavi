@@ -902,3 +902,13 @@
 127.0.0.1 - - [07/Dec/2018:16:08:29 +0530] "GET /FreakyShoesProj/images/womenshoe.png HTTP/1.1" 304 -
 127.0.0.1 - - [07/Dec/2018:16:08:29 +0530] "GET /FreakyShoesProj/images/kidshoe.jpg HTTP/1.1" 304 -
 127.0.0.1 - - [07/Dec/2018:16:08:29 +0530] "GET /FreakyShoesProj/images/background.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [07/Dec/2018:17:27:48 +0530] "GET /FreakyShoesProj/JSP/body.jsp HTTP/1.1" 200 2063
+127.0.0.1 - - [07/Dec/2018:17:27:48 +0530] "GET /FreakyShoesProj/CSSFiles/ExternalCSS.css HTTP/1.1" 304 -
+127.0.0.1 - - [07/Dec/2018:17:27:48 +0530] "GET /FreakyShoesProj/images/sale1.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [07/Dec/2018:17:27:48 +0530] "GET /FreakyShoesProj/images/sale2.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [07/Dec/2018:17:27:48 +0530] "GET /FreakyShoesProj/images/sale3.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [07/Dec/2018:17:27:48 +0530] "GET /FreakyShoesProj/images/menshoe.png HTTP/1.1" 304 -
+127.0.0.1 - - [07/Dec/2018:17:27:48 +0530] "GET /FreakyShoesProj/images/womenshoe.png HTTP/1.1" 304 -
+127.0.0.1 - - [07/Dec/2018:17:27:48 +0530] "GET /FreakyShoesProj/images/kidshoe.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [07/Dec/2018:17:27:48 +0530] "GET /FreakyShoesProj/images/background.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [07/Dec/2018:17:42:52 +0530] "GET / HTTP/1.1" 404 1036
