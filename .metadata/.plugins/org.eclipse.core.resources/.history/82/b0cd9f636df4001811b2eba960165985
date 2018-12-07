@@ -1,7 +1,0 @@
-package com.stream.classes;
-
-public class Transaction {
-	Trader trader;
-	int year; 
-	int value;
-}

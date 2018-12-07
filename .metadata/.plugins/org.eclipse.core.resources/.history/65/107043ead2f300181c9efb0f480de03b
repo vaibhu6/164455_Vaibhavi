@@ -1,7 +1,0 @@
-package com.lambda.two;
-
-public interface OrderInterface {
-	
-	public boolean OrderNo();
-	
-}

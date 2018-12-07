@@ -1,0 +1,13 @@
+.images{
+	
+	padding-top: 10%;
+	padding-bottom:0%;
+	height: 20%;	
+}
+.myslides{
+	height : 10%;
+}
+.column {
+  float: left;
+  width: 33.33%;
+}
