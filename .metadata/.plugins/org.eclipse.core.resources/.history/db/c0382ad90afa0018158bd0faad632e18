@@ -1,0 +1,16 @@
+.images{
+	
+	padding-top: 10%;
+	padding-bottom:0%;
+	height: 10%;	
+}
+.myslides{
+	height : 10%;
+}
+.column {
+  float: left;
+  width: 33.33%;
+}
+body{
+	background-color:#99ff99;
+}
