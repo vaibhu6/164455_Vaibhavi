@@ -1,9 +1,0 @@
-package com.collection.groupchat;
-
-import java.util.Scanner;
-
-public class ChatRoom {
-
-	Scanner scanner= new Scanner(System.in);
-	
-}

@@ -1,7 +1,0 @@
-package com.collections.carparking;
-
-public class Parked_CarOwner_Details {
-
-	//Create class Parked_CarOwner_Details which will have field’s owerName,
-	//carModel, carNO, owerMobileNo, owerAddress with setter and getter methods.
-}

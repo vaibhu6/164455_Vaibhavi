@@ -1,0 +1,19 @@
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN" 
+"http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+<beans>
+	<bean id="customer1" class="com.vaibhu.question1.Customer">
+		<property  name="customerId" value="101"></property>
+		<property  name="customerName" value="Vaibhavi"></property>
+		<property  name="customerContact" value="789456"></property>
+		<property  name="customerAddress" ref="add" ></property>
+	</bean>   
+	<bean id="add" class="com.vaibhu.question1.Address">
+		<property  name="street" value="Mira Road"></property>
+		<property  name="city" value="Mumbai"></property>
+		<property  name="state" value="Maharashtra"></property>
+		<property  name="zip" value="401107"></property>
+		<property  name="country" value="India"></property>
+	</bean>  
+   
+   
+</beans>

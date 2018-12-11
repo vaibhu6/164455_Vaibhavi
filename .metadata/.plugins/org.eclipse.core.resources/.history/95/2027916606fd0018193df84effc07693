@@ -1,0 +1,10 @@
+package com.spring.demo;
+
+public class DrawingShape {
+
+	public static void main(String[] args) {
+		
+		Triangle triangle= new Triangle();
+		triangle.draw();
+	}
+}
