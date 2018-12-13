@@ -1,0 +1,8 @@
+package com.vaibhu.aop.Demo;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class ShapeServiceTest {
+	ApplicationContext context = new ClassPathXmlApplicationContext("SpringDemo.xml");
+}

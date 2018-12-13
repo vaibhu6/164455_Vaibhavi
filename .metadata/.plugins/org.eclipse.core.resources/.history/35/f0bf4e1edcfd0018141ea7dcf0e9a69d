@@ -1,0 +1,24 @@
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN" 
+"http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+<beans>
+	<bean id="quest" class="com.spring.question2.Question">
+		<property name="question" value="What are your hobbies?"/>		
+		<property name="listanswers" >
+			<list>
+				<ref bean=""/>
+				<ref bean=""/>
+				<ref bean=""/>
+			</list>
+			<map>
+				<ref bean=""/>
+				<ref bean=""/>
+				<ref bean=""/>
+			</map>
+			<set>
+				<ref bean=""/>
+				<ref bean=""/>
+				<ref bean=""/>
+			</set>
+		</property>
+	</bean>
+</beans>

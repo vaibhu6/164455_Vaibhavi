@@ -1,0 +1,33 @@
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN" 
+"http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+<beans>
+	<bean id="quest" class="com.spring.question2.Question">
+		<property name="question" value="What are your hobbies?"/>		
+		<property name="listanswers" >
+			<list>
+                <value>Dancing</value>
+                <value>Singing</value>
+                <value>Reading</value>
+                <value>Dancing</value>
+            </list>	
+         </property>
+          	
+        <property name="setanswers" >
+			<set>
+                <value>Dancing</value>
+                <value>Singing</value>
+                <value>Reading</value>
+                <value>Dancing</value>
+            </set>
+          </property>
+          <property name="mapanswers" >
+            
+			<map>
+				<entry key="1" value="Dancing" />
+				<entry key="2" value="Singing" />
+				<entry key="3" value="Reading" />
+				<entry key="4" value="Dancing" />
+			</map>	
+		</property>
+	</bean>
+</beans>

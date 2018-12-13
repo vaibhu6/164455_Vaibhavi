@@ -1,0 +1,11 @@
+package com.vaibhu.aop.Demo;
+
+@Aspect
+public class LoggingAspect {
+	
+	@Before("execution(* get*())")
+	public void print()
+	{
+		System.out.println("Annotations");
+	}
+}

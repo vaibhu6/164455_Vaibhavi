@@ -1,0 +1,14 @@
+package com.vaibhu.aop.Demo;
+
+public class Circle {
+	String name;
+
+	public String getName() {
+		return "circle";
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+}

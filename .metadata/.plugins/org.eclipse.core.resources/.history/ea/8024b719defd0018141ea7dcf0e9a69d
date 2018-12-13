@@ -1,0 +1,9 @@
+package com.spring.question3;
+
+public class BankAccount {
+
+	int accountId;
+	String accountHolderName;
+	String accountType;
+	long accountBalance;
+}

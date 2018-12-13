@@ -1,0 +1,8 @@
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN" 
+"http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+<beans>
+	<bean id="cycle" class ="com.spring.question9.LifeCycle"/>
+	
+	<bean id="cycle" class ="com.spring.question8.LifeCycle" init-method="afterPropertiesSet" destroy-method="destroy"/>
+</beans>

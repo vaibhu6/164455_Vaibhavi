@@ -1,0 +1,9 @@
+package com.spring.demo;
+
+public class SPEL {
+	public static void main(String[] args) {
+		ExpressionParser parser = new SpelExpressionParser();
+		Expression exp = parser.parseExpression("'Hello World'");
+		String message = (String) exp.getValue();
+	}
+}

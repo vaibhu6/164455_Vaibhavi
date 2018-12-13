@@ -1,9 +1,0 @@
-package com.vaibhu.pojo;
-
-public class User {
-
-	String username;
-	String password;
-	String status;
-	
-}
