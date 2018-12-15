@@ -1,2 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.spring.question3.service.BankAccountepositoryImpl"/>
+<fullyQualifiedTypeName name="com.spring.question3.pogo.BankAccount"/>
+<fullyQualifiedTypeName name="com.spring.question3.service.BankAccountServiceImpl"/>
+<fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
+<fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
+<fullyQualifiedTypeName name="com.spring.question3.controller.BankAccountcontroller"/>
+</qualifiedTypeNameHistroy>

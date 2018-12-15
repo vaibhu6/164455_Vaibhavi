@@ -2,10 +2,10 @@ package com.spring.question3.pogo;
 
 public class BankAccount {
 
-	int accountId;
-	String accountHolderName;
-	String accountType;
-	double accountBalance;
+	private int accountId;
+	private String accountHolderName;
+	private String accountType;
+	private double accountBalance;
 	
 	public BankAccount() {
 			}

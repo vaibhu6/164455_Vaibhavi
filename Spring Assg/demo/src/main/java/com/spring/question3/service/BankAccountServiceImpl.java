@@ -1,35 +1,55 @@
 package com.spring.question3.service;
 
+import com.spring.question3.pogo.BankAccount;
+
 
 public class BankAccountServiceImpl implements BankAccountService{
 
-	private BankAccountepositoryImpl bankAccountRep;
+	private BankAccountepositoryImpl bankRepository;
+
+
+	public BankAccountepositoryImpl getBankRepository() {
+		return bankRepository;
+	}
+
+	public void setBankRepository(BankAccountepositoryImpl bankRepository) {
+		this.bankRepository = bankRepository;
+	}
+
 	@Override
 	public double withdraw(long accountId, double balance) {
-		double bal;
-		
-		if(getBalance(accountId) < balance){
-			
+		double  newBalance=0;
+		for(BankAccount bank:bankRepository.getAccount()){
+			if(bank.getAccountId()==accountId){
+				if(balance< bank.getAccountBalance())
+				{
+					newBalance= bank.getAccountBalance()-balance;
+				}else{
+					System.out.println("Not enough balance");
+				}
+			}
 		}
-		return 0;
+		return newBalance;
 	}
 
 	@Override
 	public double deposit(long accountId, double balance) {
-		// TODO Auto-generated method stub
-		return 0;
+		
+		double  newBalance=0;
+		for(BankAccount bank:bankRepository.getAccount()){
+			if(bank.getAccountId()==accountId){
+					newBalance= bank.getAccountBalance()+ balance;
+			}
+		}
+		return newBalance;	
 	}
 
 	@Override
 	public double getBalance(long accountId) {
-		// TODO Auto-generated method stub
-		return 0;
+		
+		return bankRepository.getBalance(accountId);
 	}
 
-	@Override
-	public boolean fundTransfer(long fromAccount, long toAccount, double amont) {
-		// TODO Auto-generated method stub
-		return false;
-	}
+	
 
 }
