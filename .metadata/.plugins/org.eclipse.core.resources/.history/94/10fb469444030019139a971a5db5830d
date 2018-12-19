@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<webapp>
+
+	<display-name>Spring MVC</display-name>
+	<servlet>
+
+		<servlet-name>
+			SpringServletDispatcher
+		</servlet-name>
+
+		<servlet-class>
+				org.framework.web.servlet.DispatcherServlet
+		</servlet-class>
+
+	</servlet>
+
+	<servlet-mapping>
+			<servlet-name>
+			SpringServletDispatcher
+		</servlet-name>
+		
+		<url-pattern>/</url-pattern>
+	</servlet-mapping>
+
+</webapp>

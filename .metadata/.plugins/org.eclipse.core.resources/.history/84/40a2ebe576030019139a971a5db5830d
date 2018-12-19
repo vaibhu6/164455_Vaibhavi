@@ -1,0 +1,12 @@
+package com.vaibhu.rest.Messenger.resource;
+
+import javax.ws.rs.Path;
+
+@Path("/messages")
+public class MessageResource {
+	
+	@GET
+	public String getMessage(){
+		return "Hello World!";
+	}
+}

@@ -1,0 +1,18 @@
+package com.vaibhu.dao;
+
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+import com.vaibhu.pojo.Person;
+
+public class UserDao {
+	
+	    public Object extractData(ResultSet rs) throws SQLException {
+	        Person person = new Person();
+	        person.username(rs.getString(1));
+	        person.password(rs.getString(2));
+	        return person;
+	    
+
+	}
+}
