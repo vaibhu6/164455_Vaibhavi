@@ -1,0 +1,7 @@
+package com.vaibhu.REST.REST_Assg3.pojo;
+
+public class Address {
+	private String state;
+	private String city;
+	private String country;
+}

@@ -126,7 +126,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log." suffix=".txt"/>
 
-      <Context docBase="C:\Users\vaisawan\Desktop\git1\.metadata\.plugins\org.eclipse.wst.server.core\tmp2\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\Users\vaisawan\Desktop\git1\.metadata\.plugins\org.eclipse.wst.server.core\tmp2\wtpwebapps\Messenger" path="/Messenger" reloadable="true" source="org.eclipse.jst.jee.server:Messenger"/></Host>
+      <Context docBase="C:\Users\vaisawan\Desktop\git1\.metadata\.plugins\org.eclipse.wst.server.core\tmp2\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\Users\vaisawan\Desktop\git1\.metadata\.plugins\org.eclipse.wst.server.core\tmp2\wtpwebapps\REST_Assg" path="/REST_Assg" reloadable="true" source="org.eclipse.jst.jee.server:REST_Assg"/><Context docBase="C:\Users\vaisawan\Desktop\git1\.metadata\.plugins\org.eclipse.wst.server.core\tmp2\wtpwebapps\REST_Assg2" path="/REST_Assg2" reloadable="true" source="org.eclipse.jst.jee.server:REST_Assg2"/><Context docBase="C:\Users\vaisawan\Desktop\git1\.metadata\.plugins\org.eclipse.wst.server.core\tmp2\wtpwebapps\REST_Assg3" path="/REST_Assg3" reloadable="true" source="org.eclipse.jst.jee.server:REST_Assg3"/><Context docBase="C:\Users\vaisawan\Desktop\git1\.metadata\.plugins\org.eclipse.wst.server.core\tmp2\wtpwebapps\REST_Assg5" path="/REST_Assg5" reloadable="true" source="org.eclipse.jst.jee.server:REST_Assg5"/></Host>
     </Engine>
   </Service>
 </Server>

@@ -1,0 +1,8 @@
+package com.vaibhu.REST.REST_Assg;
+
+public class MessageResource {
+	
+	public String show(){
+		return "Hello World";
+	}
+}

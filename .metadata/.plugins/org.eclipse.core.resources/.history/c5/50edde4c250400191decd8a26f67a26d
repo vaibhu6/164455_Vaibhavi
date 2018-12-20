@@ -1,0 +1,17 @@
+package com.vaibhu.REST.REST_Assg3.pojo;
+
+
+public class AddressJson {
+	
+	Address address;
+
+	public Address getAddress() {
+		return address;
+	}
+
+	public void setAddress(Address address) {
+		this.address = address;
+	}
+	
+	
+}

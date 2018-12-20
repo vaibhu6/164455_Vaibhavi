@@ -1,0 +1,5 @@
+package com.vaibhu.REST.REST_Assg.resource;
+
+public class MessageResource {
+
+}

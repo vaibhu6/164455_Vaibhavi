@@ -1,0 +1,25 @@
+package com.vaibhu.REST.REST_Assg3;
+
+import javax.ws.rs.FormParam;
+import javax.ws.rs.GET;
+import javax.ws.rs.POST;
+import javax.ws.rs.Path;
+import javax.ws.rs.Produces;
+import javax.ws.rs.core.MediaType;
+
+import com.vaibhu.REST.REST_Assg3.dao.AddressDao;
+
+
+@Path("/address")
+public class MyResource {
+	
+	String Address;
+	@POST
+    @Produces(MediaType.APPLICATION_JSON)
+    public String getIt(@FormParam("zip") int zip) {
+		if(zip==401107){
+			return Address;
+		}else
+			return "Sorry";     
+    }
+}

@@ -1,0 +1,22 @@
+package com.vaibhu.REST.REST_Assg5.service;
+
+import java.util.List;
+
+import com.vaibhu.REST.REST_Assg5.model.Employee;
+
+public class EmployeeService {
+	
+	public List<Employee> getAllEmployee(){
+		return ArrayList<Employee>(list.values());
+		
+	}
+	public void removeEmployee(){
+		
+	}
+	public void findEmployee(){
+	
+}
+	public void deleteEmployee(){
+	
+}
+}

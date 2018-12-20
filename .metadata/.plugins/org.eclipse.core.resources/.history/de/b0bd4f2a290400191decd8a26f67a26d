@@ -1,0 +1,22 @@
+package com.vaibhu.REST.REST_Assg3.dao;
+
+import java.util.ArrayList;
+
+import com.vaibhu.REST.REST_Assg3.pojo.Address;
+
+public class AddressDao {
+
+	static ArrayList<Address> list;
+	
+	public static void address(){
+		list=new ArrayList<Address>();
+		list.add(new Address("Maharashtra","Mira Road","India", 401107));
+		list.add(new Address("Pune","Mira Road","India", 123456));
+		list.add(new Address("Bangalore","Mira Road","India", 789456));
+	}
+	public String getAddress() {
+		return AddressDao.Address();
+		
+	}
+	
+}

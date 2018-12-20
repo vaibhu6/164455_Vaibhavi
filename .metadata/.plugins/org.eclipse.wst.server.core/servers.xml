@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <servers>
-  <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/Tomcat v7.0 Server at localhost-config" deployDir="wtpwebapps" hostname="localhost" id="Tomcat v7.0 Server at localhost" name="Tomcat v7.0 Server at localhost" runtime-id="Apache Tomcat v7.0" server-type="org.eclipse.jst.server.tomcat.70" server-type-id="org.eclipse.jst.server.tomcat.70" start-timeout="45" stop-timeout="15" testEnvironment="true" timestamp="1">
-    <list key="modules" value0="Messenger::org.eclipse.jst.jee.server:Messenger::jst.web::2.5"/>
+  <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers2/Tomcat v7.0 Server at localhost-config" deployDir="wtpwebapps" hostname="localhost" id="Tomcat v7.0 Server at localhost" name="Tomcat v7.0 Server at localhost" runtime-id="Apache Tomcat v7.0" server-type="org.eclipse.jst.server.tomcat.70" server-type-id="org.eclipse.jst.server.tomcat.70" start-timeout="45" stop-timeout="15" testEnvironment="true" timestamp="4">
+    <list key="modules" value0="REST_Assg::org.eclipse.jst.jee.server:REST_Assg::jst.web::2.5" value1="REST_Assg2::org.eclipse.jst.jee.server:REST_Assg2::jst.web::2.5" value2="REST_Assg3::org.eclipse.jst.jee.server:REST_Assg3::jst.web::2.5" value3="REST_Assg5::org.eclipse.jst.jee.server:REST_Assg5::jst.web::2.5"/>
   </server>
 </servers>

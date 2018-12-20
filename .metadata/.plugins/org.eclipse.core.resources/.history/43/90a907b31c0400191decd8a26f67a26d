@@ -1,0 +1,20 @@
+package com.vaibhu.REST.REST_Assg2;
+
+import javax.websocket.server.PathParam;
+import javax.ws.rs.POST;
+import javax.ws.rs.Path;
+
+@Path("/validate")
+public class MessageResource {
+
+	@POST
+	public String validate(@PathParam("username") String username , @PathParam("pwd") String password){
+		if(username.equals("vaibhu") && password.equals("1234"))
+		{
+			return "Valid user";
+		}else{
+			return "Invalid User";
+		}
+		
+	}
+}

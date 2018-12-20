@@ -1,0 +1,5 @@
+package com.vaibhu.rest.Messenger.model;
+
+public class Message {
+
+}

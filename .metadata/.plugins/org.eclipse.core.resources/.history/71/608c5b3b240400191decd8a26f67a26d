@@ -1,0 +1,5 @@
+package com.vaibhu.REST.REST_Assg3.service;
+
+public class AddressJson {
+
+}

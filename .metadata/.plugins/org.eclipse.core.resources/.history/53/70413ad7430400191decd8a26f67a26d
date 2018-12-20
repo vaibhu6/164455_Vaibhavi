@@ -1,0 +1,18 @@
+package com.vaibhu.REST.REST_Assg5.service;
+
+
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+import com.vaibhu.REST.REST_Assg5.model.Employee;
+
+public class EmployeeService {
+	Map<Integer,Employee> hash= new HashMap<Integer, Employee>();
+
+	public EmployeeService() {
+		// TODO Auto-generated constructor stub
+	
+	hash.put(101,new Employee( 1, "Vaibhavi", "Java", "abc", 500000));
+}
+}

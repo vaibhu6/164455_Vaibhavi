@@ -1,0 +1,8 @@
+package com.vaibhu.REST.REST_Assg2.pojo;
+
+public class User {
+
+	private String username;
+	private String password;
+	
+}

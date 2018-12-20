@@ -1,0 +1,17 @@
+package com.vaibhu.REST.REST_Assg5.service;
+
+public class EmployeeService {
+	
+	public void addEmployee(){
+		
+	}
+	public void removeEmployee(){
+		
+	}
+	public void findEmployee(){
+	
+}
+	public void deleteEmployee(){
+	
+}
+}

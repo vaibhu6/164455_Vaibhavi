@@ -1,5 +1,0 @@
-package com.vaibhu.aop.Demo;
-
-public @interface Aspect {
-
-}

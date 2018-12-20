@@ -1,0 +1,8 @@
+package com.vaibhu.rest.Messenger.model;
+
+public class Message {
+	private long id;
+	private String message;
+	private Date created;
+	private String author;
+}
