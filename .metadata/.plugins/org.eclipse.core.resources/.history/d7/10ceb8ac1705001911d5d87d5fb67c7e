@@ -1,0 +1,11 @@
+package com.freakyshoe.dao;
+
+import com.freakyshoe.bean.User;
+
+public interface IDao {
+	public int getAll();
+	public int get();
+	public int remove();
+	public int add(User e);
+
+}

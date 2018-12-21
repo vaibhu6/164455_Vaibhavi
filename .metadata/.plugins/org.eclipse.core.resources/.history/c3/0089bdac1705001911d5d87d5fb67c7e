@@ -1,0 +1,32 @@
+package com.freakyshoe.dao;
+
+import com.freakyshoe.bean.User;
+
+public class CartDao implements IDao {
+
+	@Override
+	public int getAll() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int get() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int remove() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int add(User e) {
+		String query="insert into userDetails values( '"+e.getUserId()+"','"+e.getUsername()+"','"+e.getPassword()+"')"; 
+		return 0;
+	}
+
+	
+}

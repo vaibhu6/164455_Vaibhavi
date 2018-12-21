@@ -1,0 +1,9 @@
+package com.freakyshoe.dao;
+
+public interface IDao {
+	public int getAll();
+	public int get();
+	public int remove();
+	public int add();
+
+}
