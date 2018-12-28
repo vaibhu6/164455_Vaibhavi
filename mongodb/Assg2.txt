@@ -1,0 +1,66 @@
+Atlanta Population
+
+-->	db.zipcodes.find({
+			$and :[{	"city" : "ATLANTA"}, 	{"state" : "GA"} 
+			]})
+	
+-->	db.zipcodes.aggregate( [
+			{ $match: { $and: [ { "city" : "ATLANTA" }, {"state" : "GA" } ] } },
+			]);
+			
+-->	db.zipcodes.aggregate([
+	{$match:{city:"ATLANTA"}},{$group:{_id:null,count:{$sum:1}}}
+	]); 
+
+
+-->	db.zipcodes.aggregate( [
+    { $group: { _id: { city: "ATLANTA" }, totalPop: { $sum: "$pop" } } }
+	] );
+	
+==================================================================================================================================================
+
+Populations By State
+
+-->	db.zipcodes.aggregate( [
+   { $group: { _id: "$state", totalPop: { $sum: "$pop" } } }
+   ])
+   
+--> db.zipcodes.aggregate([
+	{$group:{_id : "$state",totalP opulation: { $sum:  "$pop"  }}},{$sort : {totalPopulation :-1}}
+	]).pretty()
+   
+-->	db.zipcodes.aggregate([
+	{$group:{_id : "$state",totalPopulation: { $sum:  "$pop"  }}},{$sort : {totalPopulation :-1}},{$limit : 3} 
+	]).pretty()
+
+==================================================================================================================================================
+
+Populations by City
+
+-->	db.zipcodes.aggregate( [
+   { $group: { _id: { state: "$state", city: "$city" }, pop: { $sum: "$pop" } } }
+   ])
+   
+--> db.zipcodes.aggregate([
+	{$group:{_id :{city : "$city", state : "$state"},totalPopulation: { $sum:  "$pop"  }}},{$sort : {totalPopulation :-1}}
+	])
+	
+-->	db.zipcodes.aggregate([
+	{$group:{_id :{city : "$city"},totalPopulation: { $sum:  "$pop"  }}},{$sort : {totalPopulation :-1}},{$limit : 3}
+	])
+
+-->	db.zipcodes.aggregate([
+	{$group:{_id :{city : "TEXAS", state : "$state"},totalPopulation: { $sum:  "$pop"  }}},{$sort : {totalPopulation :-1}},{$limit : 3}
+	])
+
+==================================================================================================================================================
+
+Bonus
+
+-->db.zipcodes.aggregate([
+	{$group:{_id :{city : "$city", state : "$state"},avgpop :{$avg :"$pop"}}}
+	])
+	
+-->	db.zipcodes.aggregate([
+	{$group:{_id :{city : "$city", state : "$state"},avgpop :{$avg :"$pop"}}},{$limit : 3}
+	]).pretty()
