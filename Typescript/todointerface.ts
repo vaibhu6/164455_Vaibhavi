@@ -1,4 +1,6 @@
-export interface Todolist{
-    addTask();
-    deleteTask();
-}
+export interface todo{
+    names:string[];
+    addTask(task:string);
+    listAllTasks();
+    deleteTask(task:string);
+    }
