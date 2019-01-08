@@ -1,0 +1,67 @@
+	<h1>Add Two Numbers</h1>  
+	   <input type="number" [(ngModel)]="number1"/><br/>  
+	   <input type="number" [(ngModel)]="number2"/><br/>  
+     <button (click)="add()"> Add</button> 
+     <button (click)="sub()"> Sub</button>  
+     <button (click)="mul()"> Mul</button> 
+     <button (click)="div()"> Div </button> 
+	<h1>ans is {{ans}}</h1> 
+
+ 	<input type="button" on-click='togglevisibilty()' value="Answer" style='color:red' [ngStyle]="ApplyStyles()">  
+	<div *ngIf='showdiv'> Vaibhavi Sawant </div> <br>{{showdiv==true?sampletext:"What is your name?"}}  
+
+  <table border="1">  
+    	    <tr>  
+    	        <th>Player Name</th>  
+    	        <th>Batting style</th>  
+    	        <th>ODI Hundreds</th>  
+    	        <th>Test Hundreds</th>  
+    	    </tr>  
+         	    <tr *ngFor='let c of cricketers let i = index let even=even,let odd=odd let first=first,let last=last' [ngClass]={first:first,odd:odd,even:even,last:last}>  
+            	        <td>{{i+1}}</td>  
+           	        <td>{{c.name}}</td>  
+            	        <td>{{c.BattingStyle}}</td>  
+            	        <td>{{c.ODI}}</td>  
+            	        <td>{{c.Test}}</td>  
+           	    </tr>  
+            
+      </table> 
+      
+<!--  <select (change)='checkChangedValue($event.target.value)'>  
+  <option value="none" selected >Select</option>
+  <option value="Saurav Ganguly" >Saurav Ganguly</option>
+  <option value="Sachin Tendulkar" >Sachin Tendulkar</option>
+  <option value="Rahul Dravid" >Rahul Dravid</option>
+  <option value="Sehwag" >Sehwag</option>
+  <option value="Virat Kohli" >Virat Kohli</option>
+  <option value="Rohit Sharma" >Rohit Sharma</option>   
+</select>
+
+<div [ngSwitch]="PlayerSelection">
+  <p *ngSwitchCase ="Saurav Ganguly"> Saurav Ganguly Selected</p>
+  <p *ngSwitchCase="Sachin Tendulkar">Sachin selected</p>  
+  <p *ngSwitchCase="Rahul Dravid">Rahul selected</p>  
+  <p *ngSwitchCase="Sehwag">Sehwag selected</p>  
+  <p *ngSwitchCase="Virat Kohli">Virat Kohli selected</p>  
+  <p *ngSwitchCase="Rohit Sharma">Rohit Sharma selected</p>  
+  <p *ngSwitchDefault>NO player selected</p>  
+
+</div> -->
+
+<select (change)='checkChangedValue($event.target.value)'>  
+  <option value="none" selected>Select</option>  
+  <option value="SG">Sourav</option>  
+  <option value="ST">Sachin</option>  
+  <option value="RD">Rahul</option>  
+    
+  </select>  
+  <div [ngSwitch]="PlayerSelection">  
+      <p *ngSwitchCase="'SG'">Sourav selected</p>  
+      <p *ngSwitchCase="'ST'">Sachin selected</p>  
+      <p *ngSwitchCase="'RD'">Rahul selected</p>  
+      <p *ngSwitchDefault>NO player selected</p>  
+  </div>  
+  
+
+ <button style='color:red' [ngStyle]="ApplyStyles()">Styles</button>  
+  
