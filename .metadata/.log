@@ -4413,3 +4413,1257 @@ java.io.IOException: Unable to resolve plug-in "net.sourceforge.pmd.eclipse.plug
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-21 18:08:45.863
 !MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.DukGbNIe => OK
+!SESSION 2019-01-22 09:08:28.317 -----------------------------------------------
+eclipse.buildId=4.1.0.201812201400-RELEASE
+java.version=1.8.0_141
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2019-01-22 09:08:54.407
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-01-22 09:08:54.407
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@598e5cb8,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@199806aa,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-01-22 09:08:59.832
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\vaisawan'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:27.432
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:27.433
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@7046b5d2[org.springframework.tooling.boot.ls:1.2.0.201812201040(id=531)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:27.436
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:27.566
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:32.431
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.UELGsYek
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:32.434
+!MESSAGE subscribing to classpath changes: sts4.classpath.UELGsYek
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:32.435
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:32.436
+!MESSAGE subsribers = [sts4.classpath.UELGsYek]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:32.437
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:32.440
+!MESSAGE project service ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:32.441
+!MESSAGE project client ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:32.442
+!MESSAGE Preparing classpath changed notification service
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:32.442
+!MESSAGE project discovery-server ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:32.443
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:32.443
+!MESSAGE project Annotations ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:32.444
+!MESSAGE project Annotations SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:32.444
+!MESSAGE project AopDemo ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:32.445
+!MESSAGE project AopDemo SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:32.446
+!MESSAGE project BankApplicationVersion1 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:32.446
+!MESSAGE project BankApplicationVersion1 SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:32.447
+!MESSAGE project Calculator ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:32.448
+!MESSAGE project Calculator SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:32.448
+!MESSAGE project Collection Framewrork ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:32.449
+!MESSAGE project Collection Framewrork SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:32.449
+!MESSAGE project Course-Api ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:32.450
+!MESSAGE project Course-Api SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:32.450
+!MESSAGE project CourseApi ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:32.451
+!MESSAGE project CourseApi SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:32.451
+!MESSAGE project Date Calculato ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:32.452
+!MESSAGE project Date Calculato SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:32.453
+!MESSAGE project Date Calculator ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:32.454
+!MESSAGE project Date Calculator SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:32.454
+!MESSAGE project Demo ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:32.455
+!MESSAGE project Demo SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:32.455
+!MESSAGE project Demo1 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:32.456
+!MESSAGE project Demo1 SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:32.456
+!MESSAGE project First ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:32.457
+!MESSAGE project First SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:32.457
+!MESSAGE classpath=150 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:32.458
+!MESSAGE project FreakyShoe ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:32.458
+!MESSAGE executing callback sts4.classpath.UELGsYek service false 150
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:32.459
+!MESSAGE project FreakyShoe SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:32.460
+!MESSAGE project FreakyShoees ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:32.460
+!MESSAGE project FreakyShoees SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:32.461
+!MESSAGE project FreakyShoesProj ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:32.462
+!MESSAGE project FreakyShoesProj SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:32.462
+!MESSAGE project Generics ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:32.463
+!MESSAGE project Generics SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:32.463
+!MESSAGE project HelloMvc ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:32.464
+!MESSAGE project HelloMvc SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:32.465
+!MESSAGE project HelloWeb ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:32.465
+!MESSAGE project HelloWeb SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:32.466
+!MESSAGE project Intermediate OOPS ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:32.467
+!MESSAGE project Intermediate OOPS SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:32.467
+!MESSAGE project Java8 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:32.468
+!MESSAGE project Java8 SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:32.468
+!MESSAGE project JspDemo ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:32.469
+!MESSAGE project JspDemo SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:32.469
+!MESSAGE project Lamdba Assg ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:32.470
+!MESSAGE project Lamdba Assg SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:32.470
+!MESSAGE project Messenger ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:32.471
+!MESSAGE project Messenger SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:32.471
+!MESSAGE project New folder (2) ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:32.472
+!MESSAGE project New folder (2) SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:32.472
+!MESSAGE project REST_Assg ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:32.473
+!MESSAGE project REST_Assg SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:32.473
+!MESSAGE project REST_Assg2 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:32.474
+!MESSAGE project REST_Assg2 SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:32.475
+!MESSAGE project REST_Assg3 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:32.475
+!MESSAGE project REST_Assg3 SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:32.476
+!MESSAGE project REST_Assg5 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:32.476
+!MESSAGE project REST_Assg5 SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:32.477
+!MESSAGE project Registration ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:32.477
+!MESSAGE project Registration SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:32.478
+!MESSAGE project RemoteSystemsTempFiles ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:32.479
+!MESSAGE project RemoteSystemsTempFiles SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:32.479
+!MESSAGE project Sample ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:32.480
+!MESSAGE project Sample SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:32.480
+!MESSAGE project Serv Assg ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:32.481
+!MESSAGE project Serv Assg SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:32.481
+!MESSAGE project Servers ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:32.482
+!MESSAGE project Servers SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:32.483
+!MESSAGE project Servers2 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:32.483
+!MESSAGE project Servers2 SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:32.484
+!MESSAGE project SpringAssg ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:32.485
+!MESSAGE project SpringAssg SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:32.485
+!MESSAGE project SpringDemo ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:32.486
+!MESSAGE project SpringDemo SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:32.487
+!MESSAGE project SpringJDBCTemplateExample ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:32.487
+!MESSAGE project SpringJDBCTemplateExample SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:32.488
+!MESSAGE project Stream ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:32.489
+!MESSAGE project Stream SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:32.490
+!MESSAGE project Stream Assg ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:32.490
+!MESSAGE project Stream Assg SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:32.491
+!MESSAGE project UserValidationAssg ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:32.492
+!MESSAGE project UserValidationAssg SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:32.492
+!MESSAGE project UserValidationProject ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:32.493
+!MESSAGE project UserValidationProject SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:32.494
+!MESSAGE project config-server ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:32.494
+!MESSAGE project hello ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:32.495
+!MESSAGE project hello SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:32.496
+!MESSAGE project shopping cart ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:32.496
+!MESSAGE project shopping cart SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:32.497
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:32.497
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.UELGsYek => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:33.900
+!MESSAGE executing callback sts4.classpath.UELGsYek SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:33.902
+!MESSAGE Preparing classpath changed notification config-server
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:33.903
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:33.913
+!MESSAGE classpath=154 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:33.914
+!MESSAGE executing callback sts4.classpath.UELGsYek config-server false 154
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:35.057
+!MESSAGE executing callback sts4.classpath.UELGsYek SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:35.058
+!MESSAGE Preparing classpath changed notification discovery-server
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:35.059
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:35.083
+!MESSAGE classpath=160 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:35.083
+!MESSAGE executing callback sts4.classpath.UELGsYek discovery-server false 160
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:35.226
+!MESSAGE executing callback sts4.classpath.UELGsYek SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:35.227
+!MESSAGE Preparing classpath changed notification client
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:35.228
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:35.238
+!MESSAGE classpath=150 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:35.238
+!MESSAGE executing callback sts4.classpath.UELGsYek client false 150
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:17:35.780
+!MESSAGE executing callback sts4.classpath.UELGsYek SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:29:14.148
+!MESSAGE Preparing classpath changed notification config-client-app
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:29:14.149
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:29:14.154
+!MESSAGE classpath=151 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:29:14.155
+!MESSAGE executing callback sts4.classpath.UELGsYek config-client-app false 151
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 09:29:14.350
+!MESSAGE executing callback sts4.classpath.UELGsYek SUCCESS [done]
+
+!ENTRY org.eclipse.egit.core 4 0 2019-01-22 09:56:37.481
+!MESSAGE An exception occurred during push on URI https://github.com/dustinschultz/scf-config-repository.git: https://github.com/dustinschultz/scf-config-repository.git: not authorized
+!STACK 0
+org.eclipse.jgit.api.errors.TransportException: https://github.com/dustinschultz/scf-config-repository.git: not authorized
+	at org.eclipse.jgit.api.PushCommand.call(PushCommand.java:180)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:217)
+	at org.eclipse.egit.ui.internal.push.PushJob.performJob(PushJob.java:86)
+	at org.eclipse.egit.ui.internal.jobs.RepositoryJob.run(RepositoryJob.java:59)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.jgit.errors.TransportException: https://github.com/dustinschultz/scf-config-repository.git: not authorized
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:544)
+	at org.eclipse.jgit.transport.TransportHttp.openPush(TransportHttp.java:439)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:160)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1346)
+	at org.eclipse.jgit.api.PushCommand.call(PushCommand.java:170)
+	... 4 more
+
+!ENTRY org.eclipse.egit.ui 4 0 2019-01-22 09:56:37.483
+!MESSAGE Can't connect to any repository: https://github.com/dustinschultz/scf-config-repository.git (https://github.com/dustinschultz/scf-config-repository.git: not authorized)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-22 11:15:50.924
+!MESSAGE Could not transfer metadata org.springframework.cloud:spring-cloud-starter-zuul:1.3.7.BUILD-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): The operation was cancelled.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-22 11:15:51.078
+!MESSAGE Failure to transfer org.springframework.cloud:spring-cloud-starter-zuul:1.3.7.BUILD-SNAPSHOT/maven-metadata.xml from https://repo.spring.io/snapshot was cached in the local repository, resolution will not be reattempted until the update interval of spring-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.springframework.cloud:spring-cloud-starter-zuul:1.3.7.BUILD-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): The operation was cancelled.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-22 11:15:53.252
+!MESSAGE Could not transfer metadata org.springframework.cloud:spring-cloud-commons-dependencies:1.2.4.BUILD-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): The operation was cancelled.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-22 11:15:53.259
+!MESSAGE Could not transfer metadata org.springframework.cloud:spring-cloud-dependencies-parent:1.3.5.BUILD-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): The operation was cancelled.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-22 11:15:53.266
+!MESSAGE Could not transfer metadata org.springframework.cloud:spring-cloud-netflix-dependencies:1.3.7.BUILD-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): The operation was cancelled.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-22 11:15:53.275
+!MESSAGE Could not transfer metadata org.springframework.cloud:spring-cloud-stream-dependencies:Chelsea.BUILD-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): The operation was cancelled.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-22 11:15:53.281
+!MESSAGE Could not transfer metadata org.springframework.cloud:spring-cloud-dependencies-parent:1.3.3.BUILD-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): The operation was cancelled.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-22 11:15:53.289
+!MESSAGE Could not transfer metadata org.springframework.cloud:spring-cloud-task-dependencies:1.1.3.BUILD-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): The operation was cancelled.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-22 11:15:53.321
+!MESSAGE Could not transfer metadata org.springframework.cloud:spring-cloud-config-dependencies:1.3.5.BUILD-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): The operation was cancelled.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-22 11:15:53.331
+!MESSAGE Could not transfer metadata org.springframework.cloud:spring-cloud-consul-dependencies:1.2.3.BUILD-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): The operation was cancelled.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-22 11:15:53.337
+!MESSAGE Could not transfer metadata org.springframework.cloud:spring-cloud-dependencies-parent:1.3.1.BUILD-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): The operation was cancelled.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-22 11:15:53.366
+!MESSAGE Could not transfer metadata org.springframework.cloud:spring-cloud-sleuth-dependencies:1.2.7.BUILD-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): The operation was cancelled.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-22 11:15:53.395
+!MESSAGE Could not transfer metadata org.springframework.cloud:spring-cloud-vault-dependencies:1.0.3.BUILD-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): The operation was cancelled.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-22 11:15:53.404
+!MESSAGE Could not transfer metadata org.springframework.cloud:spring-cloud-zookeeper-dependencies:1.1.4.BUILD-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): The operation was cancelled.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-22 11:15:53.413
+!MESSAGE Could not transfer metadata org.springframework.cloud:spring-cloud-security-dependencies:1.2.2.BUILD-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): The operation was cancelled.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-22 11:15:53.422
+!MESSAGE Could not transfer metadata org.springframework.cloud:spring-cloud-cloudfoundry-dependencies:1.1.1.BUILD-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): The operation was cancelled.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-22 11:15:53.431
+!MESSAGE Could not transfer metadata org.springframework.cloud:spring-cloud-bus-dependencies:1.3.2.BUILD-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): The operation was cancelled.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-22 11:15:53.440
+!MESSAGE Could not transfer metadata org.springframework.cloud:spring-cloud-contract-dependencies:1.1.6.BUILD-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): The operation was cancelled.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-22 11:15:53.450
+!MESSAGE Could not transfer metadata org.springframework.cloud:spring-cloud-aws-dependencies:1.2.2.BUILD-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): The operation was cancelled.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-22 11:16:02.627
+!MESSAGE Failure to transfer org.springframework.cloud:spring-cloud-starter-zuul:1.3.7.BUILD-SNAPSHOT/maven-metadata.xml from https://repo.spring.io/snapshot was cached in the local repository, resolution will not be reattempted until the update interval of spring-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.springframework.cloud:spring-cloud-starter-zuul:1.3.7.BUILD-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): The operation was cancelled.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-22 11:16:02.628
+!MESSAGE Failure to transfer org.springframework.cloud:spring-cloud-starter-zuul:1.3.7.BUILD-SNAPSHOT/maven-metadata.xml from https://repo.spring.io/snapshot was cached in the local repository, resolution will not be reattempted until the update interval of spring-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.springframework.cloud:spring-cloud-starter-zuul:1.3.7.BUILD-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): The operation was cancelled.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-22 11:16:05.927
+!MESSAGE Failure to transfer org.springframework.cloud:spring-cloud-starter-zuul:1.3.7.BUILD-SNAPSHOT/maven-metadata.xml from https://repo.spring.io/snapshot was cached in the local repository, resolution will not be reattempted until the update interval of spring-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.springframework.cloud:spring-cloud-starter-zuul:1.3.7.BUILD-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): The operation was cancelled.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-22 11:16:05.931
+!MESSAGE Failure to transfer org.springframework.cloud:spring-cloud-starter-zuul:1.3.7.BUILD-SNAPSHOT/maven-metadata.xml from https://repo.spring.io/snapshot was cached in the local repository, resolution will not be reattempted until the update interval of spring-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.springframework.cloud:spring-cloud-starter-zuul:1.3.7.BUILD-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): The operation was cancelled.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-01-22 11:17:09.223
+!MESSAGE Could not download sources for stax:stax-api:1.0.1
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact stax:stax-api:jar:sources:1.0.1
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:763)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:731)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:708)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:279)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:254)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:221)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:137)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1336)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:135)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing stax:stax-api:jar:sources:1.0.1
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2019-01-22 11:17:09.234
+!MESSAGE Could not resolve artifact stax:stax-api:jar:sources:1.0.1
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2019-01-22 11:17:09.234
+!MESSAGE Missing stax:stax-api:jar:sources:1.0.1
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-01-22 11:17:09.802
+!MESSAGE Could not download sources for antlr:antlr:2.7.7
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact antlr:antlr:jar:sources:2.7.7
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:763)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:731)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:708)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:279)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:254)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:221)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:137)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1336)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:135)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing antlr:antlr:jar:sources:2.7.7
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2019-01-22 11:17:09.802
+!MESSAGE Could not resolve artifact antlr:antlr:jar:sources:2.7.7
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2019-01-22 11:17:09.802
+!MESSAGE Missing antlr:antlr:jar:sources:2.7.7
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-01-22 11:17:24.297
+!MESSAGE Could not download sources for xmlpull:xmlpull:1.1.3.1
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact xmlpull:xmlpull:jar:sources:1.1.3.1
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:763)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:731)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:708)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:279)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:254)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:221)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:137)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1336)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:135)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing xmlpull:xmlpull:jar:sources:1.1.3.1
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2019-01-22 11:17:24.297
+!MESSAGE Could not resolve artifact xmlpull:xmlpull:jar:sources:1.1.3.1
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2019-01-22 11:17:24.297
+!MESSAGE Missing xmlpull:xmlpull:jar:sources:1.1.3.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-22 11:17:24.303
+!MESSAGE Failure to transfer org.springframework.cloud:spring-cloud-starter-zuul:1.3.7.BUILD-SNAPSHOT/maven-metadata.xml from https://repo.spring.io/snapshot was cached in the local repository, resolution will not be reattempted until the update interval of spring-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.springframework.cloud:spring-cloud-starter-zuul:1.3.7.BUILD-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): The operation was cancelled.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 11:17:27.215
+!MESSAGE Preparing classpath changed notification gateway-service
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 11:17:27.216
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 11:17:27.221
+!MESSAGE classpath=121 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 11:17:27.251
+!MESSAGE executing callback sts4.classpath.UELGsYek gateway-service false 121
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 11:17:27.595
+!MESSAGE executing callback sts4.classpath.UELGsYek SUCCESS [done]
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-01-22 11:17:29.074
+!MESSAGE Could not download javadoc for stax:stax-api:1.0.1
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact stax:stax-api:jar:javadoc:1.0.1
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:763)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:731)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:708)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:279)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:265)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:221)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:137)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1336)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:135)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing stax:stax-api:jar:javadoc:1.0.1
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2019-01-22 11:17:29.074
+!MESSAGE Could not resolve artifact stax:stax-api:jar:javadoc:1.0.1
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2019-01-22 11:17:29.074
+!MESSAGE Missing stax:stax-api:jar:javadoc:1.0.1
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-01-22 11:17:29.664
+!MESSAGE Could not download javadoc for antlr:antlr:2.7.7
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact antlr:antlr:jar:javadoc:2.7.7
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:763)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:731)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:708)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:279)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:265)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:221)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:137)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1336)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:135)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing antlr:antlr:jar:javadoc:2.7.7
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2019-01-22 11:17:29.664
+!MESSAGE Could not resolve artifact antlr:antlr:jar:javadoc:2.7.7
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2019-01-22 11:17:29.664
+!MESSAGE Missing antlr:antlr:jar:javadoc:2.7.7
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-01-22 11:17:30.298
+!MESSAGE Could not download javadoc for xmlpull:xmlpull:1.1.3.1
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact xmlpull:xmlpull:jar:javadoc:1.1.3.1
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:763)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:731)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:708)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:279)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:265)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:221)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:137)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1336)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:135)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing xmlpull:xmlpull:jar:javadoc:1.1.3.1
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2019-01-22 11:17:30.298
+!MESSAGE Could not resolve artifact xmlpull:xmlpull:jar:javadoc:1.1.3.1
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2019-01-22 11:17:30.299
+!MESSAGE Missing xmlpull:xmlpull:jar:javadoc:1.1.3.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-22 11:17:30.303
+!MESSAGE Failure to transfer org.springframework.cloud:spring-cloud-starter-zuul:1.3.7.BUILD-SNAPSHOT/maven-metadata.xml from https://repo.spring.io/snapshot was cached in the local repository, resolution will not be reattempted until the update interval of spring-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.springframework.cloud:spring-cloud-starter-zuul:1.3.7.BUILD-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): The operation was cancelled.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-22 11:20:10.298
+!MESSAGE Failure to transfer org.springframework.cloud:spring-cloud-starter-zuul:1.3.7.BUILD-SNAPSHOT/maven-metadata.xml from https://repo.spring.io/snapshot was cached in the local repository, resolution will not be reattempted until the update interval of spring-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.springframework.cloud:spring-cloud-starter-zuul:1.3.7.BUILD-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): The operation was cancelled.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-22 11:20:10.299
+!MESSAGE Failure to transfer org.springframework.cloud:spring-cloud-starter-zuul:1.3.7.BUILD-SNAPSHOT/maven-metadata.xml from https://repo.spring.io/snapshot was cached in the local repository, resolution will not be reattempted until the update interval of spring-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.springframework.cloud:spring-cloud-starter-zuul:1.3.7.BUILD-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): The operation was cancelled.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-22 11:20:29.736
+!MESSAGE Failure to transfer org.springframework.cloud:spring-cloud-starter-zuul:1.3.7.BUILD-SNAPSHOT/maven-metadata.xml from https://repo.spring.io/snapshot was cached in the local repository, resolution will not be reattempted until the update interval of spring-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.springframework.cloud:spring-cloud-starter-zuul:1.3.7.BUILD-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): The operation was cancelled.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-22 11:20:29.737
+!MESSAGE Failure to transfer org.springframework.cloud:spring-cloud-starter-zuul:1.3.7.BUILD-SNAPSHOT/maven-metadata.xml from https://repo.spring.io/snapshot was cached in the local repository, resolution will not be reattempted until the update interval of spring-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.springframework.cloud:spring-cloud-starter-zuul:1.3.7.BUILD-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): The operation was cancelled.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-22 11:24:52.252
+!MESSAGE Failure to transfer org.springframework.cloud:spring-cloud-starter-zuul:1.3.7.BUILD-SNAPSHOT/maven-metadata.xml from https://repo.spring.io/snapshot was cached in the local repository, resolution will not be reattempted until the update interval of spring-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.springframework.cloud:spring-cloud-starter-zuul:1.3.7.BUILD-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): The operation was cancelled.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-22 11:24:52.254
+!MESSAGE Failure to transfer org.springframework.cloud:spring-cloud-starter-zuul:1.3.7.BUILD-SNAPSHOT/maven-metadata.xml from https://repo.spring.io/snapshot was cached in the local repository, resolution will not be reattempted until the update interval of spring-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.springframework.cloud:spring-cloud-starter-zuul:1.3.7.BUILD-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): The operation was cancelled.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 11:24:53.124
+!MESSAGE Preparing classpath changed notification gateway-service
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 11:24:53.125
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 11:24:53.135
+!MESSAGE classpath=121 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 11:24:53.136
+!MESSAGE executing callback sts4.classpath.UELGsYek gateway-service false 121
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 11:24:53.310
+!MESSAGE executing callback sts4.classpath.UELGsYek SUCCESS [done]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-22 11:25:00.405
+!MESSAGE Failure to transfer org.springframework.cloud:spring-cloud-starter-zuul:1.3.7.BUILD-SNAPSHOT/maven-metadata.xml from https://repo.spring.io/snapshot was cached in the local repository, resolution will not be reattempted until the update interval of spring-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.springframework.cloud:spring-cloud-starter-zuul:1.3.7.BUILD-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): The operation was cancelled.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-22 11:25:00.408
+!MESSAGE Failure to transfer org.springframework.cloud:spring-cloud-starter-zuul:1.3.7.BUILD-SNAPSHOT/maven-metadata.xml from https://repo.spring.io/snapshot was cached in the local repository, resolution will not be reattempted until the update interval of spring-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.springframework.cloud:spring-cloud-starter-zuul:1.3.7.BUILD-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): The operation was cancelled.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 11:26:31.892
+!MESSAGE Preparing classpath changed notification gateway-service
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 11:26:31.893
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 11:26:31.909
+!MESSAGE classpath=151 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 11:26:31.910
+!MESSAGE executing callback sts4.classpath.UELGsYek gateway-service false 151
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 11:26:32.531
+!MESSAGE executing callback sts4.classpath.UELGsYek SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 11:26:50.706
+!MESSAGE Preparing classpath changed notification gateway-service
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 11:26:50.707
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 11:26:50.715
+!MESSAGE classpath=151 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 11:26:50.716
+!MESSAGE executing callback sts4.classpath.UELGsYek gateway-service false 151
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 11:26:50.904
+!MESSAGE executing callback sts4.classpath.UELGsYek SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 11:28:16.775
+!MESSAGE Preparing classpath changed notification gateway-service
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 11:28:16.775
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 11:28:16.820
+!MESSAGE classpath=150 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 11:28:16.820
+!MESSAGE executing callback sts4.classpath.UELGsYek gateway-service false 150
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 11:28:16.959
+!MESSAGE executing callback sts4.classpath.UELGsYek SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 12:28:01.869
+!MESSAGE Preparing classpath changed notification ribbon-time-service
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 12:28:02.097
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 12:28:02.101
+!MESSAGE classpath=144 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 12:28:02.102
+!MESSAGE executing callback sts4.classpath.UELGsYek ribbon-time-service false 144
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 12:28:04.156
+!MESSAGE executing callback sts4.classpath.UELGsYek FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-01-22 12:28:04.158
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(Unknown Source)
+	at java.util.concurrent.CompletableFuture.get(Unknown Source)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:37)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$Subscriptions$2.run(ReusableClasspathListenerHandler.java:179)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 12:28:44.154
+!MESSAGE Preparing classpath changed notification ribbon-time-service
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 12:28:44.155
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 12:28:44.164
+!MESSAGE classpath=144 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 12:28:44.165
+!MESSAGE executing callback sts4.classpath.UELGsYek ribbon-time-service false 144
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 12:28:44.294
+!MESSAGE executing callback sts4.classpath.UELGsYek SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 12:28:47.110
+!MESSAGE Preparing classpath changed notification ribbon-time-app
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 12:28:47.111
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 12:28:47.120
+!MESSAGE classpath=144 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 12:28:47.120
+!MESSAGE executing callback sts4.classpath.UELGsYek ribbon-time-app false 144
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 12:28:47.254
+!MESSAGE executing callback sts4.classpath.UELGsYek SUCCESS [done]
+
+!ENTRY org.eclipse.text 4 2 2019-01-22 13:42:38.983
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.text".
+!STACK 0
+java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(Unknown Source)
+	at java.util.ArrayList.get(Unknown Source)
+	at java.util.Collections$SynchronizedList.get(Unknown Source)
+	at org.eclipse.tm4e.core.model.AbstractLineList.get(AbstractLineList.java:67)
+	at org.eclipse.tm4e.core.model.TMModel.invalidateLine(TMModel.java:363)
+	at org.eclipse.tm4e.core.model.AbstractLineList.invalidateLine(AbstractLineList.java:82)
+	at org.eclipse.tm4e.ui.internal.model.DocumentLineList.access$0(DocumentLineList.java:1)
+	at org.eclipse.tm4e.ui.internal.model.DocumentLineList$InternalListener.documentChanged(DocumentLineList.java:81)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged2(AbstractDocument.java:747)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged(AbstractDocument.java:716)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged(AbstractDocument.java:700)
+	at org.eclipse.jface.text.AbstractDocument.fireDocumentChanged(AbstractDocument.java:774)
+	at org.eclipse.jface.text.AbstractDocument.set(AbstractDocument.java:1145)
+	at org.eclipse.core.internal.filebuffers.SynchronizableDocument.set(SynchronizableDocument.java:200)
+	at org.eclipse.jface.text.AbstractDocument.set(AbstractDocument.java:1128)
+	at org.eclipse.core.internal.filebuffers.SynchronizableDocument.set(SynchronizableDocument.java:188)
+	at org.springframework.ide.eclipse.boot.launch.properties.PropertiesEditorSection.initializeFrom(PropertiesEditorSection.java:187)
+	at org.springframework.ide.eclipse.boot.launch.util.LaunchConfigurationTabWithSections.initializeFrom(LaunchConfigurationTabWithSections.java:127)
+	at org.eclipse.debug.ui.AbstractLaunchConfigurationTabGroup.initializeFrom(AbstractLaunchConfigurationTabGroup.java:93)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationTabGroupWrapper.initializeFrom(LaunchConfigurationTabGroupWrapper.java:204)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationTabGroupViewer.displayInstanceTabs(LaunchConfigurationTabGroupViewer.java:875)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationTabGroupViewer.lambda$4(LaunchConfigurationTabGroupViewer.java:736)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:72)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationTabGroupViewer.inputChanged(LaunchConfigurationTabGroupViewer.java:751)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationTabGroupViewer.setInput0(LaunchConfigurationTabGroupViewer.java:683)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationTabGroupViewer.setInput(LaunchConfigurationTabGroupViewer.java:663)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationsDialog.handleLaunchConfigurationSelectionChanged(LaunchConfigurationsDialog.java:1050)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationsDialog$4.selectionChanged(LaunchConfigurationsDialog.java:617)
+	at org.eclipse.jface.viewers.StructuredViewer$3.run(StructuredViewer.java:874)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.JFaceUtil.lambda$0(JFaceUtil.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:176)
+	at org.eclipse.jface.viewers.StructuredViewer.firePostSelectionChanged(StructuredViewer.java:871)
+	at org.eclipse.jface.viewers.StructuredViewer.handlePostSelect(StructuredViewer.java:1240)
+	at org.eclipse.jface.viewers.StructuredViewer.lambda$0(StructuredViewer.java:1263)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.jface.util.OpenStrategy.firePostSelectionEvent(OpenStrategy.java:264)
+	at org.eclipse.jface.util.OpenStrategy.access$5(OpenStrategy.java:259)
+	at org.eclipse.jface.util.OpenStrategy$1.lambda$1(OpenStrategy.java:429)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3919)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3550)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:822)
+	at org.eclipse.jface.window.Window.open(Window.java:798)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationsDialog.open(LaunchConfigurationsDialog.java:1239)
+	at org.eclipse.debug.ui.DebugUITools.lambda$1(DebugUITools.java:630)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:72)
+	at org.eclipse.debug.ui.DebugUITools.openLaunchConfigurationDialogOnGroup(DebugUITools.java:636)
+	at org.eclipse.debug.ui.DebugUITools.openLaunchConfigurationDialogOnGroup(DebugUITools.java:574)
+	at org.eclipse.debug.ui.actions.OpenLaunchDialogAction.run(OpenLaunchDialogAction.java:85)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:476)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:568)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:400)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1064)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:778)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$8(ActionContributionItem.java:1260)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+
+!ENTRY org.eclipse.text 4 2 2019-01-22 13:43:52.641
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.text".
+!STACK 0
+java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(Unknown Source)
+	at java.util.ArrayList.get(Unknown Source)
+	at java.util.Collections$SynchronizedList.get(Unknown Source)
+	at org.eclipse.tm4e.core.model.AbstractLineList.get(AbstractLineList.java:67)
+	at org.eclipse.tm4e.core.model.TMModel.invalidateLine(TMModel.java:363)
+	at org.eclipse.tm4e.core.model.AbstractLineList.invalidateLine(AbstractLineList.java:82)
+	at org.eclipse.tm4e.ui.internal.model.DocumentLineList.access$0(DocumentLineList.java:1)
+	at org.eclipse.tm4e.ui.internal.model.DocumentLineList$InternalListener.documentChanged(DocumentLineList.java:81)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged2(AbstractDocument.java:747)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged(AbstractDocument.java:716)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged(AbstractDocument.java:700)
+	at org.eclipse.jface.text.AbstractDocument.fireDocumentChanged(AbstractDocument.java:774)
+	at org.eclipse.jface.text.AbstractDocument.set(AbstractDocument.java:1145)
+	at org.eclipse.core.internal.filebuffers.SynchronizableDocument.set(SynchronizableDocument.java:200)
+	at org.eclipse.jface.text.AbstractDocument.set(AbstractDocument.java:1128)
+	at org.eclipse.core.internal.filebuffers.SynchronizableDocument.set(SynchronizableDocument.java:188)
+	at org.springframework.ide.eclipse.boot.launch.properties.PropertiesEditorSection.initializeFrom(PropertiesEditorSection.java:187)
+	at org.springframework.ide.eclipse.boot.launch.util.LaunchConfigurationTabWithSections.initializeFrom(LaunchConfigurationTabWithSections.java:127)
+	at org.eclipse.debug.ui.AbstractLaunchConfigurationTabGroup.initializeFrom(AbstractLaunchConfigurationTabGroup.java:93)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationTabGroupWrapper.initializeFrom(LaunchConfigurationTabGroupWrapper.java:204)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationTabGroupViewer.displayInstanceTabs(LaunchConfigurationTabGroupViewer.java:875)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationTabGroupViewer.lambda$4(LaunchConfigurationTabGroupViewer.java:736)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:72)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationTabGroupViewer.inputChanged(LaunchConfigurationTabGroupViewer.java:751)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationTabGroupViewer.setInput0(LaunchConfigurationTabGroupViewer.java:683)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationTabGroupViewer.setInput(LaunchConfigurationTabGroupViewer.java:663)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationsDialog.handleLaunchConfigurationSelectionChanged(LaunchConfigurationsDialog.java:1050)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationsDialog$4.selectionChanged(LaunchConfigurationsDialog.java:617)
+	at org.eclipse.jface.viewers.StructuredViewer$3.run(StructuredViewer.java:874)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.JFaceUtil.lambda$0(JFaceUtil.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:176)
+	at org.eclipse.jface.viewers.StructuredViewer.firePostSelectionChanged(StructuredViewer.java:871)
+	at org.eclipse.jface.viewers.StructuredViewer.setSelection(StructuredViewer.java:1720)
+	at org.eclipse.jface.viewers.TreeViewer.setSelection(TreeViewer.java:1084)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationView.handleConfigurationAdded(LaunchConfigurationView.java:332)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationView.lambda$0(LaunchConfigurationView.java:307)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3919)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3550)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:822)
+	at org.eclipse.jface.window.Window.open(Window.java:798)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationsDialog.open(LaunchConfigurationsDialog.java:1239)
+	at org.eclipse.debug.ui.DebugUITools.lambda$1(DebugUITools.java:630)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:72)
+	at org.eclipse.debug.ui.DebugUITools.openLaunchConfigurationDialogOnGroup(DebugUITools.java:636)
+	at org.eclipse.debug.ui.DebugUITools.openLaunchConfigurationDialogOnGroup(DebugUITools.java:574)
+	at org.eclipse.debug.ui.actions.OpenLaunchDialogAction.run(OpenLaunchDialogAction.java:85)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:476)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:568)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:400)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1064)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:778)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$8(ActionContributionItem.java:1260)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+
+!ENTRY org.eclipse.text 4 2 2019-01-22 13:51:22.265
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.text".
+!STACK 0
+java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(Unknown Source)
+	at java.util.ArrayList.get(Unknown Source)
+	at java.util.Collections$SynchronizedList.get(Unknown Source)
+	at org.eclipse.tm4e.core.model.AbstractLineList.get(AbstractLineList.java:67)
+	at org.eclipse.tm4e.core.model.TMModel.invalidateLine(TMModel.java:363)
+	at org.eclipse.tm4e.core.model.AbstractLineList.invalidateLine(AbstractLineList.java:82)
+	at org.eclipse.tm4e.ui.internal.model.DocumentLineList.access$0(DocumentLineList.java:1)
+	at org.eclipse.tm4e.ui.internal.model.DocumentLineList$InternalListener.documentChanged(DocumentLineList.java:81)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged2(AbstractDocument.java:747)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged(AbstractDocument.java:716)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged(AbstractDocument.java:700)
+	at org.eclipse.jface.text.AbstractDocument.fireDocumentChanged(AbstractDocument.java:774)
+	at org.eclipse.jface.text.AbstractDocument.set(AbstractDocument.java:1145)
+	at org.eclipse.core.internal.filebuffers.SynchronizableDocument.set(SynchronizableDocument.java:200)
+	at org.eclipse.jface.text.AbstractDocument.set(AbstractDocument.java:1128)
+	at org.eclipse.core.internal.filebuffers.SynchronizableDocument.set(SynchronizableDocument.java:188)
+	at org.springframework.ide.eclipse.boot.launch.properties.PropertiesEditorSection.initializeFrom(PropertiesEditorSection.java:187)
+	at org.springframework.ide.eclipse.boot.launch.util.LaunchConfigurationTabWithSections.initializeFrom(LaunchConfigurationTabWithSections.java:127)
+	at org.eclipse.debug.ui.AbstractLaunchConfigurationTabGroup.initializeFrom(AbstractLaunchConfigurationTabGroup.java:93)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationTabGroupWrapper.initializeFrom(LaunchConfigurationTabGroupWrapper.java:204)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationTabGroupViewer.displayInstanceTabs(LaunchConfigurationTabGroupViewer.java:875)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationTabGroupViewer.lambda$4(LaunchConfigurationTabGroupViewer.java:736)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:72)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationTabGroupViewer.inputChanged(LaunchConfigurationTabGroupViewer.java:751)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationTabGroupViewer.setInput0(LaunchConfigurationTabGroupViewer.java:683)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationTabGroupViewer.setInput(LaunchConfigurationTabGroupViewer.java:663)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationsDialog.handleLaunchConfigurationSelectionChanged(LaunchConfigurationsDialog.java:1050)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationsDialog$4.selectionChanged(LaunchConfigurationsDialog.java:617)
+	at org.eclipse.jface.viewers.StructuredViewer$3.run(StructuredViewer.java:874)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.JFaceUtil.lambda$0(JFaceUtil.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:176)
+	at org.eclipse.jface.viewers.StructuredViewer.firePostSelectionChanged(StructuredViewer.java:871)
+	at org.eclipse.jface.viewers.StructuredViewer.setSelection(StructuredViewer.java:1720)
+	at org.eclipse.jface.viewers.TreeViewer.setSelection(TreeViewer.java:1084)
+	at org.eclipse.jface.viewers.Viewer.setSelection(Viewer.java:383)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationsDialog.doInitialTreeSelection(LaunchConfigurationsDialog.java:662)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationsDialog.initializeContent(LaunchConfigurationsDialog.java:1186)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationsDialog.createContents(LaunchConfigurationsDialog.java:473)
+	at org.eclipse.jface.window.Window.create(Window.java:430)
+	at org.eclipse.jface.dialogs.Dialog.create(Dialog.java:1099)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationsDialog.create(LaunchConfigurationsDialog.java:378)
+	at org.eclipse.jface.window.Window.open(Window.java:787)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationsDialog.open(LaunchConfigurationsDialog.java:1239)
+	at org.eclipse.debug.ui.DebugUITools.lambda$1(DebugUITools.java:630)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:72)
+	at org.eclipse.debug.ui.DebugUITools.openLaunchConfigurationDialogOnGroup(DebugUITools.java:636)
+	at org.eclipse.debug.ui.DebugUITools.openLaunchConfigurationDialogOnGroup(DebugUITools.java:574)
+	at org.eclipse.debug.ui.actions.OpenLaunchDialogAction.run(OpenLaunchDialogAction.java:85)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:476)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:568)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:400)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+
+!ENTRY org.eclipse.lsp4e 4 0 2019-01-22 13:54:06.233
+!MESSAGE 
+!STACK 0
+java.lang.InterruptedException
+	at java.util.concurrent.CompletableFuture.reportGet(Unknown Source)
+	at java.util.concurrent.CompletableFuture.get(Unknown Source)
+	at org.eclipse.lsp4e.operations.hover.LSBasedHover.getHoverInfo(LSBasedHover.java:168)
+	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaHoverProvider.getHoverInfo2(SpringBootJavaHoverProvider.java:43)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:167)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:133)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 14:08:09.232
+!MESSAGE Preparing classpath changed notification ribbon-time-app
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 14:08:09.233
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 14:08:09.233
+!MESSAGE executing callback sts4.classpath.UELGsYek ribbon-time-app true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 14:08:10.995
+!MESSAGE executing callback sts4.classpath.UELGsYek SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 14:08:12.747
+!MESSAGE Preparing classpath changed notification ribbon-time-service
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 14:08:12.749
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 14:08:12.750
+!MESSAGE executing callback sts4.classpath.UELGsYek ribbon-time-service true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 14:08:12.784
+!MESSAGE executing callback sts4.classpath.UELGsYek SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 14:09:25.158
+!MESSAGE Preparing classpath changed notification without sd
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 14:09:25.159
+!MESSAGE Could not send event for project because no project location: without sd
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 14:09:55.809
+!MESSAGE Preparing classpath changed notification time-app-without-sd
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 14:09:55.809
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 14:09:55.810
+!MESSAGE classpath=23 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 14:09:55.811
+!MESSAGE executing callback sts4.classpath.UELGsYek time-app-without-sd false 23
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 14:09:57.814
+!MESSAGE executing callback sts4.classpath.UELGsYek FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-01-22 14:09:57.815
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(Unknown Source)
+	at java.util.concurrent.CompletableFuture.get(Unknown Source)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:37)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$Subscriptions$2.run(ReusableClasspathListenerHandler.java:179)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 14:09:58.336
+!MESSAGE Preparing classpath changed notification time-app-without-sd
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 14:09:58.336
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 14:09:58.342
+!MESSAGE classpath=144 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 14:09:58.342
+!MESSAGE executing callback sts4.classpath.UELGsYek time-app-without-sd false 144
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 14:09:58.473
+!MESSAGE executing callback sts4.classpath.UELGsYek SUCCESS [done]
+
+!ENTRY org.eclipse.jdt.launching 4 124 2019-01-22 14:13:41.590
+!MESSAGE Launch configuration ribbon time service 1 references closed project ribbon-time-service
+
+!ENTRY org.eclipse.core.resources 4 77 2019-01-22 14:15:02.305
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2019-01-22 14:15:02.305
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2019-01-22 14:15:02.305
+!MESSAGE C:\Users\vaisawan\Desktop\git1\Ribbon time app wit sd\scf-ribbon-time-app-with-sd-master overlaps the location of another project: 'ribbon-time-app'
+
+!ENTRY org.eclipse.core.resources 4 77 2019-01-22 14:15:37.114
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2019-01-22 14:15:37.114
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2019-01-22 14:15:37.115
+!MESSAGE C:\Users\vaisawan\Desktop\git1\Ribbon time app wit sd\scf-ribbon-time-app-with-sd-master overlaps the location of another project: 'ribbon-time-app'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 14:43:55.235
+!MESSAGE Preparing classpath changed notification weather-app
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 14:43:55.255
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 14:43:55.263
+!MESSAGE classpath=147 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 14:43:55.263
+!MESSAGE executing callback sts4.classpath.UELGsYek weather-app false 147
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 14:43:55.582
+!MESSAGE executing callback sts4.classpath.UELGsYek SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 14:44:36.311
+!MESSAGE Preparing classpath changed notification weather-app
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 14:44:36.312
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 14:44:36.320
+!MESSAGE classpath=147 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 14:44:36.321
+!MESSAGE executing callback sts4.classpath.UELGsYek weather-app false 147
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 14:44:36.759
+!MESSAGE executing callback sts4.classpath.UELGsYek SUCCESS [done]
+
+!ENTRY org.eclipse.lsp4e 4 0 2019-01-22 14:45:58.223
+!MESSAGE 
+!STACK 0
+java.lang.InterruptedException
+	at java.util.concurrent.CompletableFuture.reportGet(Unknown Source)
+	at java.util.concurrent.CompletableFuture.get(Unknown Source)
+	at org.eclipse.lsp4e.operations.hover.LSBasedHover.getHoverInfo(LSBasedHover.java:168)
+	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaHoverProvider.getHoverInfo2(SpringBootJavaHoverProvider.java:43)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:167)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:133)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+
+!ENTRY org.eclipse.lsp4e 4 0 2019-01-22 14:46:39.223
+!MESSAGE 
+!STACK 0
+java.lang.InterruptedException
+	at java.util.concurrent.CompletableFuture.reportGet(Unknown Source)
+	at java.util.concurrent.CompletableFuture.get(Unknown Source)
+	at org.eclipse.lsp4e.operations.hover.LSBasedHover.getHoverInfo(LSBasedHover.java:168)
+	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaHoverProvider.getHoverInfo2(SpringBootJavaHoverProvider.java:43)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:167)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:133)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+
+!ENTRY org.eclipse.core.jobs 2 2 2019-01-22 18:17:54.629
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.springframework.tooling.ls.eclipse.commons.STS4LanguageServerProcessStreamConnector$1

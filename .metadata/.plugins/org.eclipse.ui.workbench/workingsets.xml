@@ -27,5 +27,11 @@
 <item elementID="=CourseApi/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=Course-Api/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSet>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1548136904973_3" label="goodbye-service" name="goodbye-service">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/goodbye-service" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1548140216663_4" label="ribbon-time-service,ribbon-time-app" name="ribbon-time-service,ribbon-time-app">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/ribbon-time-service" type="4"/>
+</workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1542789722704_0" label="Window Working Set" name="Aggregate for window 1542789722704"/>
 </workingSetManager>
