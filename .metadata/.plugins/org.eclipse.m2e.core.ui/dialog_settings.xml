@@ -32,6 +32,8 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\Users\vaisawan\Desktop\Upcoming match"/>
+			<item value="C:\Users\vaisawan\Desktop\Pluralsight\ConfigServer-git"/>
 			<item value="C:\Users\vaisawan\Desktop\git1\hystrix weather service"/>
 			<item value="C:\Users\vaisawan\Desktop\git1\hystrix weather service\scf-hystrix-weather-service-master"/>
 			<item value="C:\Users\vaisawan\Desktop\git1\hystrix weather app"/>
@@ -45,10 +47,9 @@
 			<item value="C:\Users\vaisawan\Desktop\git1\Config client app"/>
 			<item value="C:\Users\vaisawan\Desktop\git1\config file"/>
 			<item value="C:\Users\vaisawan\Desktop\git1\Config-server"/>
-			<item value="C:\Users\vaisawan\Desktop\git1\Discovery server"/>
-			<item value="C:\Users\vaisawan\Desktop\git1\Discovery client"/>
 		</list>
 		<list key="projectNameTemplate">
+			<item value="upcomingmatch"/>
 			<item value="ribbon-time-app-with-sd"/>
 			<item value="time-app-with-sd"/>
 			<item value="time-service-without-sd"/>
@@ -72,8 +73,22 @@
 			<item value="[groupId].[artifactId]-[version]"/>
 		</list>
 	</section>
+	<section name="MavenCheckoutLocationPage">
+		<list key="scmUrl">
+			<item value="scm:git:https://github.com/vaibhu6/Pluralsight.git"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\vaisawan\Desktop\Pluralsight"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
